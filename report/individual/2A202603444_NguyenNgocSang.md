@@ -46,6 +46,7 @@ Grounding scores dùng rubric 0/1/2 của GUIDE trên q16–q20: q16 và q20 có
 
 Đã xuất toàn bộ **885 chunk** vào `results/audit_chunks.csv` (A: 251, B: 317, C: 317), kèm JSON metadata để kiểm tra. Đây là tệp dữ liệu; không đồng nghĩa mọi chunk đã được audit thủ công. Chi tiết 45 nhãn (15 grounding + 30 coherence) và chunk ID mẫu nằm trong `results/manual_audit_reviewed.csv`.
 
+
 ## Phân tích và kết luận
 
 - **A–B:** A hơn B trên dev: Hit@1 46,67% so với 40%; Hit@3 73,33% so với 53,33%. Khác biệt chính là fixed-size có overlap so với paragraph-based. Kết quả không đủ để chứng minh mọi corpus đều phù hợp fixed-size.
