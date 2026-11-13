@@ -48,6 +48,11 @@ def main():
             if p.page in page_ids:
                 if not p.text: raise ValueError(f'Empty content page: {path} page {p.page}')
                 p.metadata={k:v for k,v in item.get('metadata',{}).items() if isinstance(v,(str,int,float,bool))}
+                for field, groups in item.get('page_metadata',{}).items():
+                    values=[value for value,page_numbers in groups.items() if p.page in page_numbers]
+                    if len(values) != 1:
+                        raise ValueError(f'Expected one {field} value for {path} page {p.page}; found {len(values)}')
+                    p.metadata[field]=values[0]
                 pages.append(p)
     if len(pages)<30: raise ValueError(f'Only {len(pages)} valid content pages; need >=30')
     page_lookup={(p.document_id,p.page):p for p in pages}

@@ -1,5 +1,6 @@
 # Core setup, PDF parsing, and PostgreSQL vector support. Choose an embedding SDK separately.
 psycopg[binary]==3.3.8
 pgvector>=0.3,<1
+pymupdf>=1.24,<3
 pypdf>=5,<7
 python-dotenv>=1,<2

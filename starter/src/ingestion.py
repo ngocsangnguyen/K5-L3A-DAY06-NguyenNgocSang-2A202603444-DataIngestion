@@ -15,9 +15,9 @@ def normalize_text(text: str) -> str:
     return re.sub(r'\n{3,}', '\n\n', text).strip()
 
 def load_pdf(path: Path, document_id: str, source: str) -> list[DocumentPage]:
-    import fitz
+    import pymupdf
     pages = []
-    with fitz.open(path) as pdf:
+    with pymupdf.open(path) as pdf:
         for index, pdf_page in enumerate(pdf, 1):
             try:
                 raw = pdf_page.get_text('text', sort=True)
