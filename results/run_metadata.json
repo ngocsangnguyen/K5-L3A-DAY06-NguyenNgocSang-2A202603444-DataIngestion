@@ -1,0 +1,24 @@
+{
+  "model": "sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2",
+  "dimensions": 384,
+  "stats": [
+    {
+      "strategy": "A",
+      "chunks": 251,
+      "ingest_seconds": 37.188,
+      "api_cost_usd": 0
+    },
+    {
+      "strategy": "B",
+      "chunks": 317,
+      "ingest_seconds": 29.171,
+      "api_cost_usd": 0
+    },
+    {
+      "strategy": "C",
+      "chunks": 317,
+      "ingest_seconds": 28.138,
+      "api_cost_usd": 0
+    }
+  ]
+}

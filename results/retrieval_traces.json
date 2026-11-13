@@ -15,6 +15,7 @@
         "page": 34,
         "text": "we’ve also raised questions about what computer science is\ntoday. If computer science is the study of all “phenomena surrounding computers,” it could also involve data\nscience, computational science, bioinformatics, cheminformatics, computational social science, medical\ninformatics, and information science. As you will learn in Chapter 13 Hybrid Multicloud Digital Solutions\nDevelopment, another aspect of computer science is responsible computing, which includes the appropriate\nmanagement of cybe",
         "metadata": {
+          "chapter": "chapter_1",
           "category": "computer_science",
           "language": "en"
         },
@@ -28,6 +29,7 @@
         "page": 22,
         "text": "d University’s computer science department, Forsythe defined computer science as “the theory of\nprogramming, numerical analysis, data processing, and the design of computer systems.” He also argued that\ncomputer science was distinguished from other disciplines by the emphasis on algorithms, which are essential\nfor effective computer programming.3\n\nComputer science is not only about the study of how computers work, but also everything surrounding\ncomputers, including the people who design compute",
         "metadata": {
+          "chapter": "chapter_1",
           "category": "computer_science",
           "language": "en"
         },
@@ -41,6 +43,7 @@
         "page": 20,
         "text": "y the end of this section, you will be able to:\n• Discuss the history that led to the creation of computer science as a field\n• Define computer science\n• Assess what computer science can do, as well as what it should not do\n\nThe field of computer science (CS) is the study of computing, which includes all phenomena related to\ncomputers, such as the Internet. With foundations in engineering and mathematics, computer science focuses\non studying algorithms. An algorithm is a sequence of precise inst",
         "metadata": {
+          "chapter": "chapter_1",
           "category": "computer_science",
           "language": "en"
         },
@@ -65,6 +68,7 @@
         "page": 20,
         "text": "rithms. An algorithm is a sequence of precise instructions that enables computing. This\nincludes components computers use to process information. By studying and applying algorithms, computer\nscience creates applications and solutions that impact all areas of society. For example, computer science\ndeveloped the programs that enable online shopping, texting with friends, streaming music, and other\ntechnological processes.\n\nWhile computers are common today, they weren’t always this pervasive. For ",
         "metadata": {
+          "chapter": "chapter_1",
           "category": "computer_science",
           "language": "en"
         },
@@ -78,6 +82,7 @@
         "page": 53,
         "text": "ls. This technique enables a clearer understanding of the core issues.\n• Algorithms are like detailed sets of instructions for solving a problem step-by-step. They help break down\ncomplex tasks into manageable actions, ensuring a clear path to problem-solving.\n\nFigure 2.4 Users can explore the essence of computational thinking through decomposition, logical thinking, abstraction, and\nalgorithms. (attribution: Copyright Rice University, OpenStax, under CC BY NC-SA 4.0 license)\n\nIn addition to the",
         "metadata": {
+          "chapter": "chapter_2",
           "category": "computer_science",
           "language": "en"
         },
@@ -91,6 +96,7 @@
         "page": 21,
         "text": "1.1 • Computer Science 11\n\nAlgorithms may sound complicated, but they can be quite simple. For example, recipes to prepare food are\nalgorithms with precise directions for ingredient amounts, the process to combine these, and the\ntemperatures and cooking methods needed to transform the combined ingredients into a specific dish. The\ndish is the output produced by following the algorithm of a recipe.\n\nFigure 1.2 An abacus is one of the first calculators. (credit: “Traditional Chinese abacus illustr",
         "metadata": {
+          "chapter": "chapter_1",
           "category": "computer_science",
           "language": "en"
         },
@@ -117,6 +123,7 @@
         "page": 20,
         "text": "in half to perform the search. If the number being searched is less than the integer in the\nmiddle of the interval, the interval is narrowed to the lower half. In the alternative, the interval is narrowed to\nthe upper half. The algorithm repeatedly checks until the number is found or the interval is empty.\n\nAccess for free at openstax.org",
         "metadata": {
+          "chapter": "chapter_1",
           "category": "computer_science",
           "language": "en"
         },
@@ -130,6 +137,7 @@
         "page": 20,
         "text": "nd produce outputs used in computing. Today’s computers still rely on the same foundations of\nnumbers, calculations, and algorithms, except at the scale of billions of numbers and billions of calculations\nper second.\n\nTo introduce a concrete example of an algorithm, let us consider binary search algorithm, which is used to\nlocate a number in a sorted array of integers efficiently. The algorithm operates by repeatedly dividing the\nsearch interval in half to perform the search. If the number being",
         "metadata": {
+          "chapter": "chapter_1",
           "category": "computer_science",
           "language": "en"
         },
@@ -143,6 +151,7 @@
         "page": 58,
         "text": "48 2 • Computational Thinking and Design Reusability\n\nint recursiveSum (int x) {\n// Base case\nif (x == 0) {\nreturn 0;\n} else {\n// Recursive step\nreturn x + recursiveSum (x - 1);\n}\n}\nint main() {\ncout << recursiveSum (10);\n// Answer is 55\nreturn 0;\n}\n\nIn this scenario, the process involves gradually adding values to the total variable as you iterate through a\nloop. However, a different approach involves leveraging computational thinking to deconstruct the problem,\nbreaking it down into smaller su",
         "metadata": {
+          "chapter": "chapter_2",
           "category": "computer_science",
           "language": "en"
         },
@@ -167,6 +176,7 @@
         "page": 21,
         "text": "tors. (credit: “Traditional Chinese abacus illustrating the suspended bead use” by\nJccsvq/Wikimedia Commons, CC0)\n\nThe next major development in the evolution of computing occurred in 1614 when John Napier, a Scottish\nmathematician, developed logarithms, which express exponents by denoting the power that a number must\nbe raised to obtain another value. Logarithms provided a shortcut for making tedious calculations and became\nthe foundation for multiple analog calculating machines invented during",
         "metadata": {
+          "chapter": "chapter_1",
           "category": "computer_science",
           "language": "en"
         },
@@ -180,6 +190,7 @@
         "page": 21,
         "text": "he world’s first computer programmer.\n\nThe next major development in computing occurred in the late 1800s when Herman Hollerith, an employee of\nthe U.S. Census Office, developed a machine that could punch cards and count them. In 1890, Hollerith’s\ninvention was used to tabulate and prepare statistics for the U.S. census.\n\nBy the end of the 1800s and leading into the early 1900s, calculators, adding machines, typewriters, and\nrelated machines became more commonplace, setting the stage for the inv",
         "metadata": {
+          "chapter": "chapter_1",
           "category": "computer_science",
           "language": "en"
         },
@@ -193,6 +204,7 @@
         "page": 21,
         "text": "ltiple analog calculating machines invented during the 1600s.\n\nScientists continued to explore different ways to speed up or automate calculations. In the 1820s, English\nmathematician Charles Babbage invented the Difference Engine with the goal of preventing human errors in\nmanual calculations. The Difference Engine provided a means to automate the calculations of polynomial\nfunctions and astronomical calculations.\n\nBabbage followed the Difference Engine with his invention of the Analytical Engi",
         "metadata": {
+          "chapter": "chapter_1",
           "category": "computer_science",
           "language": "en"
         },
@@ -217,6 +229,7 @@
         "page": 21,
         "text": "ltiple analog calculating machines invented during the 1600s.\n\nScientists continued to explore different ways to speed up or automate calculations. In the 1820s, English\nmathematician Charles Babbage invented the Difference Engine with the goal of preventing human errors in\nmanual calculations. The Difference Engine provided a means to automate the calculations of polynomial\nfunctions and astronomical calculations.\n\nBabbage followed the Difference Engine with his invention of the Analytical Engi",
         "metadata": {
+          "chapter": "chapter_1",
           "category": "computer_science",
           "language": "en"
         },
@@ -230,6 +243,7 @@
         "page": 21,
         "text": "e Engine with his invention of the Analytical Engine. With assistance from Ada\nLovelace, the Analytical Engine was program-controlled and included features like an integrated memory and\nan arithmetic logic unit. Lovelace used punched cards to create sequencing instructions that could be read by\nthe Analytical Engine to automatically perform any calculation included in the programming code. With her\nwork on the Analytical Engine, Lovelace became the world’s first computer programmer.\n\nThe next ma",
         "metadata": {
+          "chapter": "chapter_1",
           "category": "computer_science",
           "language": "en"
         },
@@ -243,6 +257,7 @@
         "page": 27,
         "text": "ing IBM develop the Industry Standard Architecture (ISA) bus, which created a\nmethod of connecting a computer’s processor with other components and enabling them to communicate.\nThis led to the creation of PCs, with Dean owning three of the nine patents used to create the original PC.6\n\nYet their efforts were often hampered by the way that computer science failed to center, or even\naccommodate, Black people. Historically, American Indians and Hispanic people did not have the same access\nas even ",
         "metadata": {
+          "chapter": "chapter_1",
           "category": "computer_science",
           "language": "en"
         },
@@ -267,6 +282,7 @@
         "page": 21,
         "text": "he world’s first computer programmer.\n\nThe next major development in computing occurred in the late 1800s when Herman Hollerith, an employee of\nthe U.S. Census Office, developed a machine that could punch cards and count them. In 1890, Hollerith’s\ninvention was used to tabulate and prepare statistics for the U.S. census.\n\nBy the end of the 1800s and leading into the early 1900s, calculators, adding machines, typewriters, and\nrelated machines became more commonplace, setting the stage for the inv",
         "metadata": {
+          "chapter": "chapter_1",
           "category": "computer_science",
           "language": "en"
         },
@@ -280,6 +296,7 @@
         "page": 20,
         "text": "on today, they weren’t always this pervasive. For those whose lives have been\nshaped by computer technology, it can sometimes seem like computer technology is ahistorical: computing\noften focuses on rapid innovation and improvement, wasting no time looking back and reflecting on the past.\nYet the foundations of computer science defined over 50, and as much as 100, years ago very much shape\nwhat is possible with computing today.\nThe Early History of Computing\nThe first computing devices were not ",
         "metadata": {
+          "chapter": "chapter_1",
           "category": "computer_science",
           "language": "en"
         },
@@ -293,6 +310,7 @@
         "page": 26,
         "text": "lso some of the first computer scientists for the early digital computers that\npowered human spaceflight at NASA (Figure 1.5).\n\nFigure 1.5 Katherine Johnson, a Black computer scientist, recalculated the computations done by early digital computers for space\nflight planning at NASA. Her contributions were portrayed in the book and movie HiddenFigures. (credit: “Katherine Johnson at\nNASA, in 1966” by NASA/Wikimedia Commons, Public Domain)\n\nAccess for free at openstax.org",
         "metadata": {
+          "chapter": "chapter_1",
           "category": "computer_science",
           "language": "en"
         },
@@ -317,6 +335,7 @@
         "page": 21,
         "text": "he world’s first computer programmer.\n\nThe next major development in computing occurred in the late 1800s when Herman Hollerith, an employee of\nthe U.S. Census Office, developed a machine that could punch cards and count them. In 1890, Hollerith’s\ninvention was used to tabulate and prepare statistics for the U.S. census.\n\nBy the end of the 1800s and leading into the early 1900s, calculators, adding machines, typewriters, and\nrelated machines became more commonplace, setting the stage for the inv",
         "metadata": {
+          "chapter": "chapter_1",
           "category": "computer_science",
           "language": "en"
         },
@@ -330,6 +349,7 @@
         "page": 22,
         "text": "12 1 • Introduction to Computer Science\n\nRichard Bellman was a significant contributor to this effort. A mathematics professor at Princeton and later at\nStanford in the 1940s, Bellman later went to work for the Rand Corporation, where he studied the theory of\nmultistage decision processes. In 1953, Bellman invented dynamic programming,1 which is a mathematical\noptimization methodology and a technique for computer programming. With dynamic programming, complex\nproblems are divided into more manag",
         "metadata": {
+          "chapter": "chapter_1",
           "category": "computer_science",
           "language": "en"
         },
@@ -343,6 +363,7 @@
         "page": 21,
         "text": "tors. (credit: “Traditional Chinese abacus illustrating the suspended bead use” by\nJccsvq/Wikimedia Commons, CC0)\n\nThe next major development in the evolution of computing occurred in 1614 when John Napier, a Scottish\nmathematician, developed logarithms, which express exponents by denoting the power that a number must\nbe raised to obtain another value. Logarithms provided a shortcut for making tedious calculations and became\nthe foundation for multiple analog calculating machines invented during",
         "metadata": {
+          "chapter": "chapter_1",
           "category": "computer_science",
           "language": "en"
         },
@@ -367,6 +388,7 @@
         "page": 21,
         "text": "me more commonplace, setting the stage for the invention of the computer. In the\n1940s, multiple computers became available, including IBM’s Harvard Mark 1. These were the forerunners to\nthe advent of the digital computer in the 1950s, which changed everything and evolved into the computers\nand related technology we have today.\n\nAround this time, computer science emerged as an academic discipline rooted in the principles of\nmathematics, situated primarily in elite institutions, and funded by dem",
         "metadata": {
+          "chapter": "chapter_1",
           "category": "computer_science",
           "language": "en"
         },
@@ -380,6 +402,7 @@
         "page": 21,
         "text": "he world’s first computer programmer.\n\nThe next major development in computing occurred in the late 1800s when Herman Hollerith, an employee of\nthe U.S. Census Office, developed a machine that could punch cards and count them. In 1890, Hollerith’s\ninvention was used to tabulate and prepare statistics for the U.S. census.\n\nBy the end of the 1800s and leading into the early 1900s, calculators, adding machines, typewriters, and\nrelated machines became more commonplace, setting the stage for the inv",
         "metadata": {
+          "chapter": "chapter_1",
           "category": "computer_science",
           "language": "en"
         },
@@ -393,6 +416,7 @@
         "page": 20,
         "text": "on today, they weren’t always this pervasive. For those whose lives have been\nshaped by computer technology, it can sometimes seem like computer technology is ahistorical: computing\noften focuses on rapid innovation and improvement, wasting no time looking back and reflecting on the past.\nYet the foundations of computer science defined over 50, and as much as 100, years ago very much shape\nwhat is possible with computing today.\nThe Early History of Computing\nThe first computing devices were not ",
         "metadata": {
+          "chapter": "chapter_1",
           "category": "computer_science",
           "language": "en"
         },
@@ -419,6 +443,7 @@
         "page": 23,
         "text": "ter science. All computers are made of physical, real-\nworld material that we refer to as hardware. Hardware—which has four components, including processor,\nmemory, network, and storage—is the computer component that enables computations. The processor can\nbe regarded as the computer’s “brain,” as it follows instructions from algorithms and processes data. The\nmemory is a means of addressing information in a computer by storing it in consistent locations, while the\nnetwork refers to the various ",
         "metadata": {
+          "chapter": "chapter_1",
           "category": "computer_science",
           "language": "en"
         },
@@ -432,6 +457,7 @@
         "page": 23,
         "text": "ocations, while the\nnetwork refers to the various technological devices that are connected and share information. The hardware\nand physical components of a computer that permanently house a computer’s data are called storage.\n\nOne way to understand computers is from a hardware perspective: computers leverage digital electronics and\nthe physics of materials used to develop transistors. For example, many of today’s computers rely on the\nphysical properties of a brittle, crystalline metalloid calle",
         "metadata": {
+          "chapter": "chapter_1",
           "category": "computer_science",
           "language": "en"
         },
@@ -445,6 +471,7 @@
         "page": 25,
         "text": "sign of the Internet, computer\nscientists are also learning that the physical aspects of computer hardware determine what can be efficiently\ncomputed. For example, many of today’s artificial intelligence technologies rely on highly specialized computer\nhardware that is fundamentally different at the physical level compared to the general-purpose programmable\nsilicon that has been the traditional focus of computer science. Organizations that develop human-computer\ninteraction (HCI), a subfield of",
         "metadata": {
+          "chapter": "chapter_1",
           "category": "computer_science",
           "language": "en"
         },
@@ -469,6 +496,7 @@
         "page": 23,
         "text": "athways at the microscopic scale to form the physical basis for modern computers.\n\nHowever, the physical basis of computers was not always silicon. The Electronic Numerical Integrator and\nComputer (ENIAC) was completed in 1945, making it one of the earliest digital computers. The ENIAC operated\non different physical principles. Instead of silicon, the ENIAC used the technology of a vacuum tube, a physical\ndevice like a light bulb that was used as memory in early digital computers. When the “ligh",
         "metadata": {
+          "chapter": "chapter_1",
           "category": "computer_science",
           "language": "en"
         },
@@ -482,6 +510,7 @@
         "page": 23,
         "text": "by a programmer. The ENIAC was often run\nand programmed by women programmers (Figure 1.4). Despite its age and differences in hardware properties,\nit shares a fundamental and surprising similarity with modern computers. Anything that can be computed on",
         "metadata": {
+          "chapter": "chapter_1",
           "category": "computer_science",
           "language": "en"
         },
@@ -495,6 +524,7 @@
         "page": 24,
         "text": "14 1 • Introduction to Computer Science\n\ntoday’s computers can also be computed by the ENIAC given the right circumstances—just trillions of times\nmore slowly.\n\nFigure 1.4 This image depicts women programmers holding boards used in computers such as the ENIAC, many of which were\ndesigned expressly for ballistics and ordinance guidance research. Today, these room-size computers can be reproduced at a literally\nmicroscopic scale—basically invisible to the human eye. (credit: modification of \"Women",
         "metadata": {
+          "chapter": "chapter_1",
           "category": "computer_science",
           "language": "en"
         },
@@ -519,6 +549,7 @@
         "page": 24,
         "text": ") because\nthey share the same fundamental model for computing results and every computer has the ability to run any\nalgorithm. Alan Mathison Turing was an English mathematician who was highly influential in the development\nof theoretical computer science, which focuses on the mathematical processes behind software, and provided\na formalization of the concepts of algorithm and computation with the Turing machine. A Turing-complete\ncomputer stores data in memory (either using vacuum tubes or silic",
         "metadata": {
+          "chapter": "chapter_1",
           "category": "computer_science",
           "language": "en"
         },
@@ -532,6 +563,7 @@
         "page": 24,
         "text": " to the human eye. (credit: modification of \"Women holding parts of the first four Army\ncomputers\" by U.S. Army/Wikimedia Commons, Public Domain)\n\nHow is this possible? The algorithmic principles that determine how results are computed makes up software.\nAlmost all computers, from the ENIAC to today’s computers, are considered Turing-complete (or\nComputationally Universal, as opposed to specialized computing devices such as scientific calculators) because\nthey share the same fundamental model fo",
         "metadata": {
+          "chapter": "chapter_1",
           "category": "computer_science",
           "language": "en"
         },
@@ -545,6 +577,7 @@
         "page": 24,
         "text": "instructions.\n\nWhile both hardware and software are important to the practical operation of computers, computer science’s\nhistorical roots in mathematics also emphasize a third perspective. Whereas software focuses on the program\ndetails for solving problems with computers, theoretical computer science focuses on the mathematical\nprocesses behind software. The idea of Turing-completeness is a foundational concept in theoretical computer\nscience, which considers how computers in general—not just ",
         "metadata": {
+          "chapter": "chapter_1",
           "category": "computer_science",
           "language": "en"
         },
@@ -569,6 +602,7 @@
         "page": 25,
         "text": "inant vision for computer\nscience. For example, consider computers in education.\n\nAround the same time that the ARPANET began development in the late 1960s, Wally Feurzeig, Seymour\nPapert, and Cynthia Solomon designed the LOGO programming language to enable new kinds of computer-\nmediated expression and communication. Compared to contemporary programming languages such as\nFORTRAN (FORmula TRANslation System) that emphasized computation toward scientific and engineering\napplications, LOGO is well",
         "metadata": {
+          "chapter": "chapter_1",
           "category": "computer_science",
           "language": "en"
         },
@@ -582,6 +616,7 @@
         "page": 24,
         "text": "data in memory (either using vacuum tubes or silicon) and manipulates that data according\nto a computer program, which is an algorithm that can be run on a computer. These programs are\nrepresented using symbols and instructions written in a programming language consisting of symbols and\ninstructions that can be interpreted by the computer. Programs are also stored in memory, which allows\nprogrammers to modify and improve programs by changing the instructions.\n\nWhile both hardware and software ar",
         "metadata": {
+          "chapter": "chapter_1",
           "category": "computer_science",
           "language": "en"
         },
@@ -595,6 +630,7 @@
         "page": 25,
         "text": "entific and engineering\napplications, LOGO is well known for its use of turtle graphics, whereby programs were used to control the\nactions of a digital turtle using instructions such as moving forward some number of units and turning left or\nright some number of degrees. Papert argued that this turtle programming enabled body-syntonicreasoning,\na kind of experience that could help students more effectively learn concepts in mathematics such as angles,\ndistance, and geometric shapes by instructin",
         "metadata": {
+          "chapter": "chapter_1",
           "category": "computer_science",
           "language": "en"
         },
@@ -619,6 +655,7 @@
         "page": 26,
         "text": "erits the borders\nbetween concepts originally imagined in the 1970s when university computer science education was only\nintended to prepare students for software development jobs. We now know that there are many more roles for\ncomputer scientists to play in society—not only software engineers, but also data analysts, product managers,\nentrepreneurs, political advisors or politicians, environmental engineers, social activists, and scientists across\nevery field from accounting to zoology.\n\nAlthoug",
         "metadata": {
+          "chapter": "chapter_1",
           "category": "computer_science",
           "language": "en"
         },
@@ -632,6 +669,7 @@
         "page": 26,
         "text": "16 1 • Introduction to Computer Science\n\nsoftware engineers, designed their computer science curricula to teach the concepts that early computer\ncompanies such as IBM desperately needed. These courses had an emphasis on efficiency, performance, and\nscalability, because a university computer science education was only intended to produce software engineers.\nWe live with the consequences of this design even today: the structure of this textbook inherits the borders\nbetween concepts originally imag",
         "metadata": {
+          "chapter": "chapter_1",
           "category": "computer_science",
           "language": "en"
         },
@@ -645,6 +683,7 @@
         "page": 25,
         "text": "encies and the limits of data-based approaches.4\n\nYet despite these roots in aspirations for computers as a medium for learning anything and everything, the\nstudy of computer science education emerged in the 1970s as a field narrowly concerned with producing more\neffective software engineers. Higher-education computer science faculty, motivated by the demand for\n\n4 B. Naimipour, M. Guzdial, and T. Shreiner. 2019. Helping Social Studies Teachers to Design Learning Experiences Around Data:\nPartici",
         "metadata": {
+          "chapter": "chapter_1",
           "category": "computer_science",
           "language": "en"
         },
@@ -669,6 +708,7 @@
         "page": 27,
         "text": "ing IBM develop the Industry Standard Architecture (ISA) bus, which created a\nmethod of connecting a computer’s processor with other components and enabling them to communicate.\nThis led to the creation of PCs, with Dean owning three of the nine patents used to create the original PC.6\n\nYet their efforts were often hampered by the way that computer science failed to center, or even\naccommodate, Black people. Historically, American Indians and Hispanic people did not have the same access\nas even ",
         "metadata": {
+          "chapter": "chapter_1",
           "category": "computer_science",
           "language": "en"
         },
@@ -682,6 +722,7 @@
         "page": 27,
         "text": "et social media platforms, news, and blog websites. For example, Roy L. Clay Sr., a member of the\nSilicon Valley Engineering Hall of Fame, helped Hewlett-Packard develop its first computer lab and create the\ncompany’s first computers. Later, Clay provided information to venture capitalists that motivated them to\ninvest in start-ups such as Intel and Compaq.5 In another example, Mark Dean was an engineer for IBM whose\nwork was instrumental in helping IBM develop the Industry Standard Architecture",
         "metadata": {
+          "chapter": "chapter_1",
           "category": "computer_science",
           "language": "en"
         },
@@ -695,6 +736,7 @@
         "page": 21,
         "text": "me more commonplace, setting the stage for the invention of the computer. In the\n1940s, multiple computers became available, including IBM’s Harvard Mark 1. These were the forerunners to\nthe advent of the digital computer in the 1950s, which changed everything and evolved into the computers\nand related technology we have today.\n\nAround this time, computer science emerged as an academic discipline rooted in the principles of\nmathematics, situated primarily in elite institutions, and funded by dem",
         "metadata": {
+          "chapter": "chapter_1",
           "category": "computer_science",
           "language": "en"
         },
@@ -719,6 +761,7 @@
         "page": 31,
         "text": "1.2 • Computer Science across the Disciplines 21\n\nvery same power that limits spreadsheets as a data management and large-scale data analysis tool. The more\ndata and the more people involved in a spreadsheet, the greater the potential for spreadsheet problems.\n\nThe interdisciplinary field that applies computing to managing data and extracting information from data is\ncalled data science. Data scientists are practitioners who combine computing and data analysis skills with the\ndomain knowledge sp",
         "metadata": {
+          "chapter": "chapter_1",
           "category": "computer_science",
           "language": "en"
         },
@@ -732,6 +775,7 @@
         "page": 30,
         "text": " is an example of a data-centric\nprogramming environment where data is organized into cells in a table. Instead of presenting programs as\nprimarily about algorithms, spreadsheets present programs as primarily about data. Spreadsheets are often\nused for data analysis by offering a way to organize, share, and communicate ideas about data. Spreadsheets\nare uniquely effective and accessible because they allow for the visual organization of data in whichever\nstructure makes the most sense to the user",
         "metadata": {
+          "chapter": "chapter_1",
           "category": "computer_science",
           "language": "en"
         },
@@ -745,6 +789,7 @@
         "page": 30,
         "text": "ichever\nstructure makes the most sense to the user. Instead of hiding data behind code, spreadsheets make data as\ntransparent and up to date as possible.\n\nAlthough spreadsheets make computation accessible for millions of people across the world, they have several\nshortcomings. Unless limits are removed, many popular spreadsheet software products such as Microsoft\nExcel may have a limitation to the number of rows of data they can store that is less than the data of modern\ncomputers. One such exam",
         "metadata": {
+          "chapter": "chapter_1",
           "category": "computer_science",
           "language": "en"
         },
@@ -769,6 +814,7 @@
         "page": 35,
         "text": " intelligence and machine learning have applications that directly influence human\ndecision-making, ranging from advertisement targeting to language translation to self-driving cars. Effective\ncomputational solutions to research or business problems require combining specific knowledge with\ncomputer science concepts from a combination of areas. For example, the computational science application\nof weather prediction combines knowledge about various subfields of computer science (algorithms,\ndist",
         "metadata": {
+          "chapter": "chapter_1",
           "category": "computer_science",
           "language": "en"
         },
@@ -782,6 +828,7 @@
         "page": 31,
         "text": "wser history across\nan online storefront. Data scientists can then analyze browser patterns using machine learning methods in\norder to recommend related products, target advertisements to specific customers over social media, and\nreengage customers over email or other means. Machine learning (ML) is a subset of artificial intelligence that\nrelies on algorithms and data to make it possible for artificial intelligence to learn, actually mimicking the way\nhumans learn. For example, ML is used to id",
         "metadata": {
+          "chapter": "chapter_1",
           "category": "computer_science",
           "language": "en"
         },
@@ -795,6 +842,7 @@
         "page": 60,
         "text": " outcome, such as the\npositioning of key pieces and the opponent’s tendencies, sidelining less critical factors—this is an\nabstraction.\n• Drawing from prior knowledge and experiences in similar scenarios, a step-by-step approach is\ndeveloped to navigate through the game—this is algorithmic thinking.\n\nShould you venture into developing your own chess program or strategy, these are precisely the types of\nconsiderations you would deliberate on and resolve before actual programming.\n\nTesting and Deb",
         "metadata": {
+          "chapter": "chapter_2",
           "category": "computer_science",
           "language": "en"
         },
@@ -821,6 +869,7 @@
         "page": 51,
         "text": "2.1 • Computational Thinking 41\n\n76CompThinking) from the BBC.\n\nVision\n\nTo further qualify computational thinking, Al Aho of the Columbia University Computer Science Department\ndescribes computational thinking as “the thought processes involved in formulating problems so their\nsolutions can be represented as computational steps and algorithms.” Jeannette Wing, also of Columbia\nUniversity, brought the idea of computational thinking to prominence in a paper she wrote in 2006 while at\nCarnegie Mell",
         "metadata": {
+          "chapter": "chapter_2",
           "category": "computer_science",
           "language": "en"
         },
@@ -834,6 +883,7 @@
         "page": 51,
         "text": "n a paper she wrote in 2006 while at\nCarnegie Mellon University. She believes that computational thinking details the mental acts needed to\ncompute a solution to a problem either by human actions or machine. Computational thinking encompasses a\ncollection of methods and approaches for resolving (and acquiring the skills to resolve) complex challenges,\nclosely aligned with mathematical thinking through its utilization of abstraction, generalization, modeling, and\nmeasurement (Figure 2.2). However",
         "metadata": {
+          "chapter": "chapter_2",
           "category": "computer_science",
           "language": "en"
         },
@@ -847,6 +897,7 @@
         "page": 50,
         "text": "ne computational thinking\n• Discuss computational thinking examples\n\nThis chapter presents key aspects of computational thinking, including logical thinking, assessment,\ndecomposition, pattern recognition, abstraction, generalization, componentization, and automation. These\nelements guide how computer scientists approach problems and create well-designed solution building blocks\nat both the business and technical levels. Computational thinking often involves a bottom-up approach,\nfocusing on com",
         "metadata": {
+          "chapter": "chapter_2",
           "category": "computer_science",
           "language": "en"
         },
@@ -871,6 +922,7 @@
         "page": 53,
         "text": "2.1 • Computational Thinking 43\n\ntechniques (cornerstones) to computational thinking, as illustrated in Figure 2.4:\n\n• Decomposition is a fundamental concept in computational thinking, representing the process of\nsystematically breaking down a complex problem or system into smaller, more manageable parts or\nsubproblems. By breaking down complexity into simpler elements, decomposition promotes a more\norganized approach to problem-solving.\n• Logical thinking and pattern recognition is a computatio",
         "metadata": {
+          "chapter": "chapter_2",
           "category": "computer_science",
           "language": "en"
         },
@@ -884,6 +936,7 @@
         "page": 52,
         "text": "42 2 • Computational Thinking and Design Reusability\n\nis called decomposition. This approach helps analyze and solve problems more effectively.\n• Pattern recognition (logically organizing and analyzing data): Computational thinking emphasizes the\nlogical organization and analysis of data. This includes the ability to structure information in a way that\nfacilitates effective problem-solving.\n• Representing data through abstractions: An abstraction is a simplified representation of complex systems",
         "metadata": {
+          "chapter": "chapter_2",
           "category": "computer_science",
           "language": "en"
         },
@@ -897,6 +950,7 @@
         "page": 52,
         "text": " is a simplified representation of complex systems\nor phenomena. Computational thinking involves representing data through an abstraction, such as a\nsimulation, which uses models as surrogates for real systems.\n• Automation through algorithmic thinking: Using a program or computer application to perform repetitive\ntasks or calculations is considered automation.\n• Identification, analysis, and implementation of solutions: Computational thinking emphasizes\nidentification, analysis, and implementat",
         "metadata": {
+          "chapter": "chapter_2",
           "category": "computer_science",
           "language": "en"
         },
@@ -923,6 +977,7 @@
         "page": 54,
         "text": "44 2 • Computational Thinking and Design Reusability\n\nyou can contribute to the development and refinement of strategies that effectively improve road safety.\n\nDecomposition\n\nDecomposition involves solving a complex problem by breaking it up into smaller, more manageable tasks.\nDecomposition enables the consideration of various components essential for solving a seemingly complex\ntask, allowing it to be redefined into a more manageable problem. In the case of the jam sandwich example,\ndecomposit",
         "metadata": {
+          "chapter": "chapter_2",
           "category": "computer_science",
           "language": "en"
         },
@@ -936,6 +991,7 @@
         "page": 53,
         "text": "2.1 • Computational Thinking 43\n\ntechniques (cornerstones) to computational thinking, as illustrated in Figure 2.4:\n\n• Decomposition is a fundamental concept in computational thinking, representing the process of\nsystematically breaking down a complex problem or system into smaller, more manageable parts or\nsubproblems. By breaking down complexity into simpler elements, decomposition promotes a more\norganized approach to problem-solving.\n• Logical thinking and pattern recognition is a computatio",
         "metadata": {
+          "chapter": "chapter_2",
           "category": "computer_science",
           "language": "en"
         },
@@ -949,6 +1005,7 @@
         "page": 52,
         "text": "42 2 • Computational Thinking and Design Reusability\n\nis called decomposition. This approach helps analyze and solve problems more effectively.\n• Pattern recognition (logically organizing and analyzing data): Computational thinking emphasizes the\nlogical organization and analysis of data. This includes the ability to structure information in a way that\nfacilitates effective problem-solving.\n• Representing data through abstractions: An abstraction is a simplified representation of complex systems",
         "metadata": {
+          "chapter": "chapter_2",
           "category": "computer_science",
           "language": "en"
         },
@@ -973,6 +1030,7 @@
         "page": 53,
         "text": "ls. This technique enables a clearer understanding of the core issues.\n• Algorithms are like detailed sets of instructions for solving a problem step-by-step. They help break down\ncomplex tasks into manageable actions, ensuring a clear path to problem-solving.\n\nFigure 2.4 Users can explore the essence of computational thinking through decomposition, logical thinking, abstraction, and\nalgorithms. (attribution: Copyright Rice University, OpenStax, under CC BY NC-SA 4.0 license)\n\nIn addition to the",
         "metadata": {
+          "chapter": "chapter_2",
           "category": "computer_science",
           "language": "en"
         },
@@ -986,6 +1044,7 @@
         "page": 20,
         "text": "rithms. An algorithm is a sequence of precise instructions that enables computing. This\nincludes components computers use to process information. By studying and applying algorithms, computer\nscience creates applications and solutions that impact all areas of society. For example, computer science\ndeveloped the programs that enable online shopping, texting with friends, streaming music, and other\ntechnological processes.\n\nWhile computers are common today, they weren’t always this pervasive. For ",
         "metadata": {
+          "chapter": "chapter_1",
           "category": "computer_science",
           "language": "en"
         },
@@ -999,6 +1058,7 @@
         "page": 36,
         "text": "cult for programmers to solve using traditional\nprogramming methods. Imagine having to define very precise rules or instructions that could identify an\nobject in an image regardless of its position, size, lighting conditions, or perspective. As humans, we have an\nintuitive sense of the qualities of an object. However, representing this human intelligence in a machine\nrequiring strict rules or instructions is a much harder task. AI methods for image recognition involve designing\nalgorithm archite",
         "metadata": {
+          "chapter": "chapter_1",
           "category": "computer_science",
           "language": "en"
         },
@@ -1023,6 +1083,7 @@
         "page": 22,
         "text": "Computer science is not only about the study of how computers work, but also everything surrounding\ncomputers, including the people who design computers, the people who write programs that run on\ncomputers, the people who test the programs to ensure correctness, and the people who are directly and\nindirectly affected by computers. In this way, computer science is as much about people and how they work\nwith computers as it is about just computers.",
         "metadata": {
+          "chapter": "chapter_1",
           "category": "computer_science",
           "language": "en"
         },
@@ -1036,6 +1097,7 @@
         "page": 33,
         "text": "1.2 • Computer Science across the Disciplines 23",
         "metadata": {
+          "chapter": "chapter_1",
           "category": "computer_science",
           "language": "en"
         },
@@ -1049,6 +1111,7 @@
         "page": 32,
         "text": "However, computer science is today deeply interdisciplinary and involves methods from across science,\nmathematics, and engineering. Computer scientists design, analyze, and evaluate computational structures,\nsystems, and processes.",
         "metadata": {
+          "chapter": "chapter_1",
           "category": "computer_science",
           "language": "en"
         },
@@ -1073,6 +1136,7 @@
         "page": 56,
         "text": "An algorithm is a sequence of steps/instructions that must be followed in a specific order to solve a problem.\nAlgorithms make it possible to describe a solution to a problem by writing down the instructions that are\nrequired to solve the problem. Computer programs typically execute algorithms to perform certain tasks. In\nthe jam sandwich example, the algorithm technique is about writing instructions that the robot can follow to\nmake the jam sandwich. As you will learn in Chapter 3 Data Structur",
         "metadata": {
+          "chapter": "chapter_2",
           "category": "computer_science",
           "language": "en"
         },
@@ -1086,6 +1150,7 @@
         "page": 24,
         "text": "ential in the development\nof theoretical computer science, which focuses on the mathematical processes behind software, and provided\na formalization of the concepts of algorithm and computation with the Turing machine. A Turing-complete\ncomputer stores data in memory (either using vacuum tubes or silicon) and manipulates that data according\nto a computer program, which is an algorithm that can be run on a computer. These programs are\nrepresented using symbols and instructions written in a progra",
         "metadata": {
+          "chapter": "chapter_1",
           "category": "computer_science",
           "language": "en"
         },
@@ -1099,6 +1164,7 @@
         "page": 21,
         "text": "1.1 • Computer Science 11\n\nAlgorithms may sound complicated, but they can be quite simple. For example, recipes to prepare food are\nalgorithms with precise directions for ingredient amounts, the process to combine these, and the\ntemperatures and cooking methods needed to transform the combined ingredients into a specific dish. The\ndish is the output produced by following the algorithm of a recipe.",
         "metadata": {
+          "chapter": "chapter_1",
           "category": "computer_science",
           "language": "en"
         },
@@ -1125,6 +1191,7 @@
         "page": 20,
         "text": "To introduce a concrete example of an algorithm, let us consider binary search algorithm, which is used to\nlocate a number in a sorted array of integers efficiently. The algorithm operates by repeatedly dividing the\nsearch interval in half to perform the search. If the number being searched is less than the integer in the\nmiddle of the interval, the interval is narrowed to the lower half. In the alternative, the interval is narrowed to\nthe upper half. The algorithm repeatedly checks until the nu",
         "metadata": {
+          "chapter": "chapter_1",
           "category": "computer_science",
           "language": "en"
         },
@@ -1138,6 +1205,7 @@
         "page": 20,
         "text": "mber is found or the interval is empty.",
         "metadata": {
+          "chapter": "chapter_1",
           "category": "computer_science",
           "language": "en"
         },
@@ -1151,6 +1219,7 @@
         "page": 58,
         "text": "In this scenario, the process involves gradually adding values to the total variable as you iterate through a\nloop. However, a different approach involves leveraging computational thinking to deconstruct the problem,\nbreaking it down into smaller subcomponents. This method tackles these subcomponents individually to\naddress the overarching issue. When these smaller parts represent scaled-down versions of the original\nproblem, recursion becomes a valuable tool.",
         "metadata": {
+          "chapter": "chapter_2",
           "category": "computer_science",
           "language": "en"
         },
@@ -1175,6 +1244,7 @@
         "page": 21,
         "text": "The next major development in the evolution of computing occurred in 1614 when John Napier, a Scottish\nmathematician, developed logarithms, which express exponents by denoting the power that a number must\nbe raised to obtain another value. Logarithms provided a shortcut for making tedious calculations and became\nthe foundation for multiple analog calculating machines invented during the 1600s.",
         "metadata": {
+          "chapter": "chapter_1",
           "category": "computer_science",
           "language": "en"
         },
@@ -1188,6 +1258,7 @@
         "page": 21,
         "text": "The next major development in computing occurred in the late 1800s when Herman Hollerith, an employee of\nthe U.S. Census Office, developed a machine that could punch cards and count them. In 1890, Hollerith’s\ninvention was used to tabulate and prepare statistics for the U.S. census.",
         "metadata": {
+          "chapter": "chapter_1",
           "category": "computer_science",
           "language": "en"
         },
@@ -1201,6 +1272,7 @@
         "page": 22,
         "text": "1 S. Golomb, “Richard E. Bellman 1920–1984,” n.d. https://www.nae.edu/189177/RICHARD-E-BELLMAN-19201984\n2 Geeks for Geeks, “Dynamic Programming or DP,” 2024. https://www.geeksforgeeks.org/dynamic-programming/\n3 D. E. Knuth, “George Forsythe and the Development of Computer Science,” CommunicationsoftheACM, vol. 15, no.8, pp.\n722–723. 1972. https://dl.acm.org/doi/pdf/10.1145/361532.361538\n\nAccess for free at openstax.org",
         "metadata": {
+          "chapter": "chapter_1",
           "category": "computer_science",
           "language": "en"
         },
@@ -1225,6 +1297,7 @@
         "page": 21,
         "text": "Scientists continued to explore different ways to speed up or automate calculations. In the 1820s, English\nmathematician Charles Babbage invented the Difference Engine with the goal of preventing human errors in\nmanual calculations. The Difference Engine provided a means to automate the calculations of polynomial\nfunctions and astronomical calculations.",
         "metadata": {
+          "chapter": "chapter_1",
           "category": "computer_science",
           "language": "en"
         },
@@ -1238,6 +1311,7 @@
         "page": 21,
         "text": "Babbage followed the Difference Engine with his invention of the Analytical Engine. With assistance from Ada\nLovelace, the Analytical Engine was program-controlled and included features like an integrated memory and\nan arithmetic logic unit. Lovelace used punched cards to create sequencing instructions that could be read by\nthe Analytical Engine to automatically perform any calculation included in the programming code. With her\nwork on the Analytical Engine, Lovelace became the world’s first com",
         "metadata": {
+          "chapter": "chapter_1",
           "category": "computer_science",
           "language": "en"
         },
@@ -1251,6 +1325,7 @@
         "page": 29,
         "text": "than the dominant “designer.”",
         "metadata": {
+          "chapter": "chapter_1",
           "category": "computer_science",
           "language": "en"
         },
@@ -1275,6 +1350,7 @@
         "page": 21,
         "text": "puter programmer.",
         "metadata": {
+          "chapter": "chapter_1",
           "category": "computer_science",
           "language": "en"
         },
@@ -1288,6 +1364,7 @@
         "page": 26,
         "text": "16 1 • Introduction to Computer Science",
         "metadata": {
+          "chapter": "chapter_1",
           "category": "computer_science",
           "language": "en"
         },
@@ -1301,6 +1378,7 @@
         "page": 53,
         "text": "A programmer is someone who writes instructions for a computer to follow. A typical example is that of a\nprogrammer who gives instructions to a robot and tells it to make a jam sandwich. In this case, applying\ncomputational techniques to give instructions to the robot entails the following techniques: decomposition,\nlogical thinking and pattern recognition, abstraction, and algorithms. These techniques are explained in the\nfollowing subsections as they apply to the jam sandwich example.",
         "metadata": {
+          "chapter": "chapter_2",
           "category": "computer_science",
           "language": "en"
         },
@@ -1325,6 +1403,7 @@
         "page": 21,
         "text": "The next major development in computing occurred in the late 1800s when Herman Hollerith, an employee of\nthe U.S. Census Office, developed a machine that could punch cards and count them. In 1890, Hollerith’s\ninvention was used to tabulate and prepare statistics for the U.S. census.",
         "metadata": {
+          "chapter": "chapter_1",
           "category": "computer_science",
           "language": "en"
         },
@@ -1338,6 +1417,7 @@
         "page": 22,
         "text": "1 S. Golomb, “Richard E. Bellman 1920–1984,” n.d. https://www.nae.edu/189177/RICHARD-E-BELLMAN-19201984\n2 Geeks for Geeks, “Dynamic Programming or DP,” 2024. https://www.geeksforgeeks.org/dynamic-programming/\n3 D. E. Knuth, “George Forsythe and the Development of Computer Science,” CommunicationsoftheACM, vol. 15, no.8, pp.\n722–723. 1972. https://dl.acm.org/doi/pdf/10.1145/361532.361538\n\nAccess for free at openstax.org",
         "metadata": {
+          "chapter": "chapter_1",
           "category": "computer_science",
           "language": "en"
         },
@@ -1351,6 +1431,7 @@
         "page": 22,
         "text": "Richard Bellman was a significant contributor to this effort. A mathematics professor at Princeton and later at\nStanford in the 1940s, Bellman later went to work for the Rand Corporation, where he studied the theory of\nmultistage decision processes. In 1953, Bellman invented dynamic programming,1 which is a mathematical\noptimization methodology and a technique for computer programming. With dynamic programming, complex\nproblems are divided into more manageable subproblems. Each subproblem is sol",
         "metadata": {
+          "chapter": "chapter_1",
           "category": "computer_science",
           "language": "en"
         },
@@ -1375,6 +1456,7 @@
         "page": 21,
         "text": "Around this time, computer science emerged as an academic discipline rooted in the principles of\nmathematics, situated primarily in elite institutions, and funded by demand from the military for use in missile\nguidance systems, airplanes, and other military applications. As computers could execute programs faster\nthan humans, computer science replaced human-powered calculation with computer-powered problem-\nsolving methods. In this way, the earliest academic computer scientists envisioned comput",
         "metadata": {
+          "chapter": "chapter_1",
           "category": "computer_science",
           "language": "en"
         },
@@ -1388,6 +1470,7 @@
         "page": 22,
         "text": "What Is Computer Science?\nThe term computerscience was popularized by George E. Forsythe in 1961. A mathematician who founded\nStanford University’s computer science department, Forsythe defined computer science as “the theory of\nprogramming, numerical analysis, data processing, and the design of computer systems.” He also argued that\ncomputer science was distinguished from other disciplines by the emphasis on algorithms, which are essential\nfor effective computer programming.3",
         "metadata": {
+          "chapter": "chapter_1",
           "category": "computer_science",
           "language": "en"
         },
@@ -1401,6 +1484,7 @@
         "page": 20,
         "text": "While computers are common today, they weren’t always this pervasive. For those whose lives have been\nshaped by computer technology, it can sometimes seem like computer technology is ahistorical: computing\noften focuses on rapid innovation and improvement, wasting no time looking back and reflecting on the past.\nYet the foundations of computer science defined over 50, and as much as 100, years ago very much shape\nwhat is possible with computing today.\nThe Early History of Computing\nThe first com",
         "metadata": {
+          "chapter": "chapter_1",
           "category": "computer_science",
           "language": "en"
         },
@@ -1427,6 +1511,7 @@
         "page": 34,
         "text": "24 1 • Introduction to Computer Science",
         "metadata": {
+          "chapter": "chapter_1",
           "category": "computer_science",
           "language": "en"
         },
@@ -1440,6 +1525,7 @@
         "page": 29,
         "text": "1.1 • Computer Science 19",
         "metadata": {
+          "chapter": "chapter_1",
           "category": "computer_science",
           "language": "en"
         },
@@ -1453,6 +1539,7 @@
         "page": 36,
         "text": "26 1 • Introduction to Computer Science",
         "metadata": {
+          "chapter": "chapter_1",
           "category": "computer_science",
           "language": "en"
         },
@@ -1477,6 +1564,7 @@
         "page": 23,
         "text": "However, the physical basis of computers was not always silicon. The Electronic Numerical Integrator and\nComputer (ENIAC) was completed in 1945, making it one of the earliest digital computers. The ENIAC operated\non different physical principles. Instead of silicon, the ENIAC used the technology of a vacuum tube, a physical\ndevice like a light bulb that was used as memory in early digital computers. When the “light” in the vacuum\ntube is off, the vacuum tube represents the number 0. When the “li",
         "metadata": {
+          "chapter": "chapter_1",
           "category": "computer_science",
           "language": "en"
         },
@@ -1490,6 +1578,7 @@
         "page": 24,
         "text": "14 1 • Introduction to Computer Science\n\ntoday’s computers can also be computed by the ENIAC given the right circumstances—just trillions of times\nmore slowly.",
         "metadata": {
+          "chapter": "chapter_1",
           "category": "computer_science",
           "language": "en"
         },
@@ -1503,6 +1592,7 @@
         "page": 20,
         "text": "puting devices were not at all like the computers we know today. They were physical calculation\ndevices such as the abacus, which first appeared in many societies across the world thousands of years ago.\nThey allowed people to tally, count, or add numbers (Figure 1.2). Today, abaci are still used in some situations,\nsuch as helping small children learn basic arithmetic, keeping score in games, and as a calculating tool for\npeople with visual impairments. However, abaci are not common today becau",
         "metadata": {
+          "chapter": "chapter_1",
           "category": "computer_science",
           "language": "en"
         },
@@ -1527,6 +1617,7 @@
         "page": 24,
         "text": "How is this possible? The algorithmic principles that determine how results are computed makes up software.\nAlmost all computers, from the ENIAC to today’s computers, are considered Turing-complete (or\nComputationally Universal, as opposed to specialized computing devices such as scientific calculators) because\nthey share the same fundamental model for computing results and every computer has the ability to run any\nalgorithm. Alan Mathison Turing was an English mathematician who was highly influ",
         "metadata": {
+          "chapter": "chapter_1",
           "category": "computer_science",
           "language": "en"
         },
@@ -1540,6 +1631,7 @@
         "page": 24,
         "text": "ential in the development\nof theoretical computer science, which focuses on the mathematical processes behind software, and provided\na formalization of the concepts of algorithm and computation with the Turing machine. A Turing-complete\ncomputer stores data in memory (either using vacuum tubes or silicon) and manipulates that data according\nto a computer program, which is an algorithm that can be run on a computer. These programs are\nrepresented using symbols and instructions written in a progra",
         "metadata": {
+          "chapter": "chapter_1",
           "category": "computer_science",
           "language": "en"
         },
@@ -1553,6 +1645,7 @@
         "page": 24,
         "text": "While both hardware and software are important to the practical operation of computers, computer science’s\nhistorical roots in mathematics also emphasize a third perspective. Whereas software focuses on the program\ndetails for solving problems with computers, theoretical computer science focuses on the mathematical\nprocesses behind software. The idea of Turing-completeness is a foundational concept in theoretical computer\nscience, which considers how computers in general—not just the ENIAC or to",
         "metadata": {
+          "chapter": "chapter_1",
           "category": "computer_science",
           "language": "en"
         },
@@ -1577,6 +1670,7 @@
         "page": 25,
         "text": "Around the same time that the ARPANET began development in the late 1960s, Wally Feurzeig, Seymour\nPapert, and Cynthia Solomon designed the LOGO programming language to enable new kinds of computer-\nmediated expression and communication. Compared to contemporary programming languages such as\nFORTRAN (FORmula TRANslation System) that emphasized computation toward scientific and engineering\napplications, LOGO is well known for its use of turtle graphics, whereby programs were used to control the\na",
         "metadata": {
+          "chapter": "chapter_1",
           "category": "computer_science",
           "language": "en"
         },
@@ -1590,6 +1684,7 @@
         "page": 24,
         "text": "mming language consisting of symbols and\ninstructions that can be interpreted by the computer. Programs are also stored in memory, which allows\nprogrammers to modify and improve programs by changing the instructions.",
         "metadata": {
+          "chapter": "chapter_1",
           "category": "computer_science",
           "language": "en"
         },
@@ -1603,6 +1698,7 @@
         "page": 21,
         "text": "puter programmer.",
         "metadata": {
+          "chapter": "chapter_1",
           "category": "computer_science",
           "language": "en"
         },
@@ -1627,6 +1723,7 @@
         "page": 26,
         "text": "r science education was only\nintended to prepare students for software development jobs. We now know that there are many more roles for\ncomputer scientists to play in society—not only software engineers, but also data analysts, product managers,\nentrepreneurs, political advisors or politicians, environmental engineers, social activists, and scientists across\nevery field from accounting to zoology.",
         "metadata": {
+          "chapter": "chapter_1",
           "category": "computer_science",
           "language": "en"
         },
@@ -1640,6 +1737,7 @@
         "page": 26,
         "text": "software engineers, designed their computer science curricula to teach the concepts that early computer\ncompanies such as IBM desperately needed. These courses had an emphasis on efficiency, performance, and\nscalability, because a university computer science education was only intended to produce software engineers.\nWe live with the consequences of this design even today: the structure of this textbook inherits the borders\nbetween concepts originally imagined in the 1970s when university compute",
         "metadata": {
+          "chapter": "chapter_1",
           "category": "computer_science",
           "language": "en"
         },
@@ -1653,6 +1751,7 @@
         "page": 25,
         "text": "Yet despite these roots in aspirations for computers as a medium for learning anything and everything, the\nstudy of computer science education emerged in the 1970s as a field narrowly concerned with producing more\neffective software engineers. Higher-education computer science faculty, motivated by the demand for",
         "metadata": {
+          "chapter": "chapter_1",
           "category": "computer_science",
           "language": "en"
         },
@@ -1677,6 +1776,7 @@
         "page": 27,
         "text": "Sr., a member of the\nSilicon Valley Engineering Hall of Fame, helped Hewlett-Packard develop its first computer lab and create the\ncompany’s first computers. Later, Clay provided information to venture capitalists that motivated them to\ninvest in start-ups such as Intel and Compaq.5 In another example, Mark Dean was an engineer for IBM whose\nwork was instrumental in helping IBM develop the Industry Standard Architecture (ISA) bus, which created a\nmethod of connecting a computer’s processor with",
         "metadata": {
+          "chapter": "chapter_1",
           "category": "computer_science",
           "language": "en"
         },
@@ -1690,6 +1790,7 @@
         "page": 50,
         "text": "and automation. They embraced computational thinking by applying algorithms and machine learning to\nanalyze data. Recognizing the efficiency of adaptive design reuse, the team explored successful projects like\nrobotics and self-driving cars for inspiration. These projects have become the foundation for their own\ninnovation. With minimal adjustments, they seamlessly integrate these building blocks into comprehensive\nsolutions such as self-driven cars that can smoothly navigate the city, drones th",
         "metadata": {
+          "chapter": "chapter_2",
           "category": "computer_science",
           "language": "en"
         },
@@ -1703,6 +1804,7 @@
         "page": 26,
         "text": "software engineers, designed their computer science curricula to teach the concepts that early computer\ncompanies such as IBM desperately needed. These courses had an emphasis on efficiency, performance, and\nscalability, because a university computer science education was only intended to produce software engineers.\nWe live with the consequences of this design even today: the structure of this textbook inherits the borders\nbetween concepts originally imagined in the 1970s when university compute",
         "metadata": {
+          "chapter": "chapter_1",
           "category": "computer_science",
           "language": "en"
         },
@@ -1727,6 +1829,7 @@
         "page": 31,
         "text": "1.2 • Computer Science across the Disciplines 21\n\nvery same power that limits spreadsheets as a data management and large-scale data analysis tool. The more\ndata and the more people involved in a spreadsheet, the greater the potential for spreadsheet problems.",
         "metadata": {
+          "chapter": "chapter_1",
           "category": "computer_science",
           "language": "en"
         },
@@ -1740,6 +1843,7 @@
         "page": 30,
         "text": "reshaped almost all\nfacets of life today for everyone.\nData Science\nAcross business, financial, governmental, scientific, and nonprofit workplaces, millions of people are\nprogramming, and most of the time, they don’t even know it! A spreadsheet is an example of a data-centric\nprogramming environment where data is organized into cells in a table. Instead of presenting programs as\nprimarily about algorithms, spreadsheets present programs as primarily about data. Spreadsheets are often\nused for da",
         "metadata": {
+          "chapter": "chapter_1",
           "category": "computer_science",
           "language": "en"
         },
@@ -1753,6 +1857,7 @@
         "page": 30,
         "text": "ely by the user rather than the software. Spreadsheets are an expressive\nand accessible technology for data analysis, but this creative power that spreadsheets afford to users is the",
         "metadata": {
+          "chapter": "chapter_1",
           "category": "computer_science",
           "language": "en"
         },
@@ -1777,6 +1882,7 @@
         "page": 60,
         "text": "game—this is algorithmic thinking.",
         "metadata": {
+          "chapter": "chapter_2",
           "category": "computer_science",
           "language": "en"
         },
@@ -1790,6 +1896,7 @@
         "page": 37,
         "text": "The idea of neural networks, however, is not as new as it might seem. Artificial neural networks were first\nimagined in the mid-1900s alongside contemporary research efforts in the cognitive sciences. The ideas of\nmultilayered, hierarchical networks of neurons and the mathematical optimization methods for learning were\nall there, but these early efforts were limited by the computational processing power available at the time. In\naddition, the large datasets that drive neural network learning wer",
         "metadata": {
+          "chapter": "chapter_1",
           "category": "computer_science",
           "language": "en"
         },
@@ -1803,6 +1910,7 @@
         "page": 52,
         "text": "In today’s technology world, mastering computational thinking techniques is important. These techniques\noffer a systematic way to solve problems using tools like data structures, which are like containers used to\norganize and store data efficiently in a computer. They define how data is logically arranged and manipulated,\nmaking it easier to access and work with information in algorithms and programs. There are four key\n\nAccess for free at openstax.org",
         "metadata": {
+          "chapter": "chapter_2",
           "category": "computer_science",
           "language": "en"
         },
@@ -1829,6 +1937,7 @@
         "page": 19,
         "text": "This book will also introduce the computational thinking aspects of problem-solving and analytical thinking\nthat enable the study of algorithms, which are step-by-step instructions for solving specific problems or\ncarrying out computations. Therefore, this book also covers algorithms and their realization via programming\nlanguages, computer systems architectures, networks, and operating systems. The book subsequently delves\ninto computer science areas that enable the design and development of so",
         "metadata": {
+          "chapter": "chapter_1",
           "category": "computer_science",
           "language": "en"
         },
@@ -1842,6 +1951,7 @@
         "page": 51,
         "text": "To further qualify computational thinking, Al Aho of the Columbia University Computer Science Department\ndescribes computational thinking as “the thought processes involved in formulating problems so their\nsolutions can be represented as computational steps and algorithms.” Jeannette Wing, also of Columbia\nUniversity, brought the idea of computational thinking to prominence in a paper she wrote in 2006 while at\nCarnegie Mellon University. She believes that computational thinking details the ment",
         "metadata": {
+          "chapter": "chapter_2",
           "category": "computer_science",
           "language": "en"
         },
@@ -1855,6 +1965,7 @@
         "page": 50,
         "text": "This chapter presents key aspects of computational thinking, including logical thinking, assessment,\ndecomposition, pattern recognition, abstraction, generalization, componentization, and automation. These\nelements guide how computer scientists approach problems and create well-designed solution building blocks\nat both the business and technical levels. Computational thinking often involves a bottom-up approach,\nfocusing on computing in smaller contexts, and seeks to generate innovative solution",
         "metadata": {
+          "chapter": "chapter_2",
           "category": "computer_science",
           "language": "en"
         },
@@ -1879,6 +1990,7 @@
         "page": 53,
         "text": "• Decomposition is a fundamental concept in computational thinking, representing the process of\nsystematically breaking down a complex problem or system into smaller, more manageable parts or\nsubproblems. By breaking down complexity into simpler elements, decomposition promotes a more\norganized approach to problem-solving.\n• Logical thinking and pattern recognition is a computational thinking technique that involves the process of\nidentifying similarities among and within problems. This computat",
         "metadata": {
+          "chapter": "chapter_2",
           "category": "computer_science",
           "language": "en"
         },
@@ -1892,6 +2004,7 @@
         "page": 52,
         "text": "is called decomposition. This approach helps analyze and solve problems more effectively.\n• Pattern recognition (logically organizing and analyzing data): Computational thinking emphasizes the\nlogical organization and analysis of data. This includes the ability to structure information in a way that\nfacilitates effective problem-solving.\n• Representing data through abstractions: An abstraction is a simplified representation of complex systems\nor phenomena. Computational thinking involves represe",
         "metadata": {
+          "chapter": "chapter_2",
           "category": "computer_science",
           "language": "en"
         },
@@ -1905,6 +2018,7 @@
         "page": 50,
         "text": "s by utilizing data\nstructures and algorithms. Additionally, it may make use of existing design building blocks like design patterns\nand abstract data types to expedite the development of optimal combinations of data structures and\nalgorithms.\nWhat Is Computational Thinking?\nThe problem-solving and cognitive process, known as computational thinking, is rooted in principles derived\nfrom computer science. It involves breaking down complex problems into smaller, more manageable parts and\ndevising s",
         "metadata": {
+          "chapter": "chapter_2",
           "category": "computer_science",
           "language": "en"
         },
@@ -1931,6 +2045,7 @@
         "page": 53,
         "text": "• Decomposition is a fundamental concept in computational thinking, representing the process of\nsystematically breaking down a complex problem or system into smaller, more manageable parts or\nsubproblems. By breaking down complexity into simpler elements, decomposition promotes a more\norganized approach to problem-solving.\n• Logical thinking and pattern recognition is a computational thinking technique that involves the process of\nidentifying similarities among and within problems. This computat",
         "metadata": {
+          "chapter": "chapter_2",
           "category": "computer_science",
           "language": "en"
         },
@@ -1944,6 +2059,7 @@
         "page": 54,
         "text": "Decomposition involves solving a complex problem by breaking it up into smaller, more manageable tasks.\nDecomposition enables the consideration of various components essential for solving a seemingly complex\ntask, allowing it to be redefined into a more manageable problem. In the case of the jam sandwich example,\ndecomposition involves identifying all the required ingredients and the steps the robot must take to\nsuccessfully create a jam sandwich.\nLogical Thinking and Pattern Recognition",
         "metadata": {
+          "chapter": "chapter_2",
           "category": "computer_science",
           "language": "en"
         },
@@ -1957,6 +2073,7 @@
         "page": 52,
         "text": "is called decomposition. This approach helps analyze and solve problems more effectively.\n• Pattern recognition (logically organizing and analyzing data): Computational thinking emphasizes the\nlogical organization and analysis of data. This includes the ability to structure information in a way that\nfacilitates effective problem-solving.\n• Representing data through abstractions: An abstraction is a simplified representation of complex systems\nor phenomena. Computational thinking involves represe",
         "metadata": {
+          "chapter": "chapter_2",
           "category": "computer_science",
           "language": "en"
         },
@@ -1981,6 +2098,7 @@
         "page": 52,
         "text": "as visualized in Figure 2.3:",
         "metadata": {
+          "chapter": "chapter_2",
           "category": "computer_science",
           "language": "en"
         },
@@ -1994,6 +2112,7 @@
         "page": 36,
         "text": "uctions is a much harder task. AI methods for image recognition involve designing\nalgorithm architectures that can generalize across all the possible ways that an object can appear in an image.",
         "metadata": {
+          "chapter": "chapter_1",
           "category": "computer_science",
           "language": "en"
         },
@@ -2007,6 +2126,7 @@
         "page": 56,
         "text": "An algorithm is a sequence of steps/instructions that must be followed in a specific order to solve a problem.\nAlgorithms make it possible to describe a solution to a problem by writing down the instructions that are\nrequired to solve the problem. Computer programs typically execute algorithms to perform certain tasks. In\nthe jam sandwich example, the algorithm technique is about writing instructions that the robot can follow to\nmake the jam sandwich. As you will learn in Chapter 3 Data Structur",
         "metadata": {
+          "chapter": "chapter_2",
           "category": "computer_science",
           "language": "en"
         },
@@ -2031,6 +2151,7 @@
         "page": 22,
         "text": "Computer science is not only about the study of how computers work, but also everything surrounding\ncomputers, including the people who design computers, the people who write programs that run on\ncomputers, the people who test the programs to ensure correctness, and the people who are directly and\nindirectly affected by computers. In this way, computer science is as much about people and how they work\nwith computers as it is about just computers.",
         "metadata": {
+          "chapter": "chapter_1",
           "category": "computer_science",
           "language": "en"
         },
@@ -2044,6 +2165,7 @@
         "page": 33,
         "text": "1.2 • Computer Science across the Disciplines 23",
         "metadata": {
+          "chapter": "chapter_1",
           "category": "computer_science",
           "language": "en"
         },
@@ -2057,6 +2179,7 @@
         "page": 32,
         "text": "However, computer science is today deeply interdisciplinary and involves methods from across science,\nmathematics, and engineering. Computer scientists design, analyze, and evaluate computational structures,\nsystems, and processes.",
         "metadata": {
+          "chapter": "chapter_1",
           "category": "computer_science",
           "language": "en"
         },
@@ -2081,6 +2204,7 @@
         "page": 56,
         "text": "An algorithm is a sequence of steps/instructions that must be followed in a specific order to solve a problem.\nAlgorithms make it possible to describe a solution to a problem by writing down the instructions that are\nrequired to solve the problem. Computer programs typically execute algorithms to perform certain tasks. In\nthe jam sandwich example, the algorithm technique is about writing instructions that the robot can follow to\nmake the jam sandwich. As you will learn in Chapter 3 Data Structur",
         "metadata": {
+          "chapter": "chapter_2",
           "category": "computer_science",
           "language": "en"
         },
@@ -2094,6 +2218,7 @@
         "page": 24,
         "text": "ential in the development\nof theoretical computer science, which focuses on the mathematical processes behind software, and provided\na formalization of the concepts of algorithm and computation with the Turing machine. A Turing-complete\ncomputer stores data in memory (either using vacuum tubes or silicon) and manipulates that data according\nto a computer program, which is an algorithm that can be run on a computer. These programs are\nrepresented using symbols and instructions written in a progra",
         "metadata": {
+          "chapter": "chapter_1",
           "category": "computer_science",
           "language": "en"
         },
@@ -2107,6 +2232,7 @@
         "page": 21,
         "text": "1.1 • Computer Science 11\n\nAlgorithms may sound complicated, but they can be quite simple. For example, recipes to prepare food are\nalgorithms with precise directions for ingredient amounts, the process to combine these, and the\ntemperatures and cooking methods needed to transform the combined ingredients into a specific dish. The\ndish is the output produced by following the algorithm of a recipe.",
         "metadata": {
+          "chapter": "chapter_1",
           "category": "computer_science",
           "language": "en"
         },
@@ -2123,9 +2249,52 @@
     "filter": {
       "chapter": "chapter_1"
     },
-    "hit1": false,
-    "hit3": false,
-    "hits": []
+    "hit1": true,
+    "hit3": true,
+    "hits": [
+      {
+        "chunk_id": "05d660c1deeee68723cc9da1",
+        "document_id": "openstax-intro-cs",
+        "source": "data\\corpus\\introduction_to_computer_science.pdf",
+        "page": 20,
+        "text": "To introduce a concrete example of an algorithm, let us consider binary search algorithm, which is used to\nlocate a number in a sorted array of integers efficiently. The algorithm operates by repeatedly dividing the\nsearch interval in half to perform the search. If the number being searched is less than the integer in the\nmiddle of the interval, the interval is narrowed to the lower half. In the alternative, the interval is narrowed to\nthe upper half. The algorithm repeatedly checks until the nu",
+        "metadata": {
+          "chapter": "chapter_1",
+          "category": "computer_science",
+          "language": "en"
+        },
+        "score": 0.7064804434776306,
+        "evidence_hit": true
+      },
+      {
+        "chunk_id": "6cae1f915cc74e71dec75fc1",
+        "document_id": "openstax-intro-cs",
+        "source": "data\\corpus\\introduction_to_computer_science.pdf",
+        "page": 20,
+        "text": "mber is found or the interval is empty.",
+        "metadata": {
+          "chapter": "chapter_1",
+          "category": "computer_science",
+          "language": "en"
+        },
+        "score": 0.42068782448768616,
+        "evidence_hit": false
+      },
+      {
+        "chunk_id": "24f0961c58686f4b134b8164",
+        "document_id": "openstax-intro-cs",
+        "source": "data\\corpus\\introduction_to_computer_science.pdf",
+        "page": 31,
+        "text": "ts often involve high-volume measurements of\nuser interactions on the Internet at a very fine grain, such as tracking a customer’s web browser history across\nan online storefront. Data scientists can then analyze browser patterns using machine learning methods in\norder to recommend related products, target advertisements to specific customers over social media, and\nreengage customers over email or other means. Machine learning (ML) is a subset of artificial intelligence that\nrelies on algorithms",
+        "metadata": {
+          "chapter": "chapter_1",
+          "category": "computer_science",
+          "language": "en"
+        },
+        "score": 0.326842337846756,
+        "evidence_hit": false
+      }
+    ]
   },
   {
     "strategy": "C",
@@ -2143,6 +2312,7 @@
         "page": 21,
         "text": "The next major development in the evolution of computing occurred in 1614 when John Napier, a Scottish\nmathematician, developed logarithms, which express exponents by denoting the power that a number must\nbe raised to obtain another value. Logarithms provided a shortcut for making tedious calculations and became\nthe foundation for multiple analog calculating machines invented during the 1600s.",
         "metadata": {
+          "chapter": "chapter_1",
           "category": "computer_science",
           "language": "en"
         },
@@ -2156,6 +2326,7 @@
         "page": 21,
         "text": "The next major development in computing occurred in the late 1800s when Herman Hollerith, an employee of\nthe U.S. Census Office, developed a machine that could punch cards and count them. In 1890, Hollerith’s\ninvention was used to tabulate and prepare statistics for the U.S. census.",
         "metadata": {
+          "chapter": "chapter_1",
           "category": "computer_science",
           "language": "en"
         },
@@ -2169,6 +2340,7 @@
         "page": 22,
         "text": "1 S. Golomb, “Richard E. Bellman 1920–1984,” n.d. https://www.nae.edu/189177/RICHARD-E-BELLMAN-19201984\n2 Geeks for Geeks, “Dynamic Programming or DP,” 2024. https://www.geeksforgeeks.org/dynamic-programming/\n3 D. E. Knuth, “George Forsythe and the Development of Computer Science,” CommunicationsoftheACM, vol. 15, no.8, pp.\n722–723. 1972. https://dl.acm.org/doi/pdf/10.1145/361532.361538\n\nAccess for free at openstax.org",
         "metadata": {
+          "chapter": "chapter_1",
           "category": "computer_science",
           "language": "en"
         },
@@ -2193,6 +2365,7 @@
         "page": 21,
         "text": "Scientists continued to explore different ways to speed up or automate calculations. In the 1820s, English\nmathematician Charles Babbage invented the Difference Engine with the goal of preventing human errors in\nmanual calculations. The Difference Engine provided a means to automate the calculations of polynomial\nfunctions and astronomical calculations.",
         "metadata": {
+          "chapter": "chapter_1",
           "category": "computer_science",
           "language": "en"
         },
@@ -2206,6 +2379,7 @@
         "page": 21,
         "text": "Babbage followed the Difference Engine with his invention of the Analytical Engine. With assistance from Ada\nLovelace, the Analytical Engine was program-controlled and included features like an integrated memory and\nan arithmetic logic unit. Lovelace used punched cards to create sequencing instructions that could be read by\nthe Analytical Engine to automatically perform any calculation included in the programming code. With her\nwork on the Analytical Engine, Lovelace became the world’s first com",
         "metadata": {
+          "chapter": "chapter_1",
           "category": "computer_science",
           "language": "en"
         },
@@ -2219,6 +2393,7 @@
         "page": 29,
         "text": "than the dominant “designer.”",
         "metadata": {
+          "chapter": "chapter_1",
           "category": "computer_science",
           "language": "en"
         },
@@ -2243,6 +2418,7 @@
         "page": 21,
         "text": "puter programmer.",
         "metadata": {
+          "chapter": "chapter_1",
           "category": "computer_science",
           "language": "en"
         },
@@ -2256,6 +2432,7 @@
         "page": 26,
         "text": "16 1 • Introduction to Computer Science",
         "metadata": {
+          "chapter": "chapter_1",
           "category": "computer_science",
           "language": "en"
         },
@@ -2269,6 +2446,7 @@
         "page": 53,
         "text": "A programmer is someone who writes instructions for a computer to follow. A typical example is that of a\nprogrammer who gives instructions to a robot and tells it to make a jam sandwich. In this case, applying\ncomputational techniques to give instructions to the robot entails the following techniques: decomposition,\nlogical thinking and pattern recognition, abstraction, and algorithms. These techniques are explained in the\nfollowing subsections as they apply to the jam sandwich example.",
         "metadata": {
+          "chapter": "chapter_2",
           "category": "computer_science",
           "language": "en"
         },
@@ -2293,6 +2471,7 @@
         "page": 21,
         "text": "The next major development in computing occurred in the late 1800s when Herman Hollerith, an employee of\nthe U.S. Census Office, developed a machine that could punch cards and count them. In 1890, Hollerith’s\ninvention was used to tabulate and prepare statistics for the U.S. census.",
         "metadata": {
+          "chapter": "chapter_1",
           "category": "computer_science",
           "language": "en"
         },
@@ -2306,6 +2485,7 @@
         "page": 22,
         "text": "1 S. Golomb, “Richard E. Bellman 1920–1984,” n.d. https://www.nae.edu/189177/RICHARD-E-BELLMAN-19201984\n2 Geeks for Geeks, “Dynamic Programming or DP,” 2024. https://www.geeksforgeeks.org/dynamic-programming/\n3 D. E. Knuth, “George Forsythe and the Development of Computer Science,” CommunicationsoftheACM, vol. 15, no.8, pp.\n722–723. 1972. https://dl.acm.org/doi/pdf/10.1145/361532.361538\n\nAccess for free at openstax.org",
         "metadata": {
+          "chapter": "chapter_1",
           "category": "computer_science",
           "language": "en"
         },
@@ -2319,6 +2499,7 @@
         "page": 22,
         "text": "Richard Bellman was a significant contributor to this effort. A mathematics professor at Princeton and later at\nStanford in the 1940s, Bellman later went to work for the Rand Corporation, where he studied the theory of\nmultistage decision processes. In 1953, Bellman invented dynamic programming,1 which is a mathematical\noptimization methodology and a technique for computer programming. With dynamic programming, complex\nproblems are divided into more manageable subproblems. Each subproblem is sol",
         "metadata": {
+          "chapter": "chapter_1",
           "category": "computer_science",
           "language": "en"
         },
@@ -2343,6 +2524,7 @@
         "page": 21,
         "text": "Around this time, computer science emerged as an academic discipline rooted in the principles of\nmathematics, situated primarily in elite institutions, and funded by demand from the military for use in missile\nguidance systems, airplanes, and other military applications. As computers could execute programs faster\nthan humans, computer science replaced human-powered calculation with computer-powered problem-\nsolving methods. In this way, the earliest academic computer scientists envisioned comput",
         "metadata": {
+          "chapter": "chapter_1",
           "category": "computer_science",
           "language": "en"
         },
@@ -2356,6 +2538,7 @@
         "page": 22,
         "text": "What Is Computer Science?\nThe term computerscience was popularized by George E. Forsythe in 1961. A mathematician who founded\nStanford University’s computer science department, Forsythe defined computer science as “the theory of\nprogramming, numerical analysis, data processing, and the design of computer systems.” He also argued that\ncomputer science was distinguished from other disciplines by the emphasis on algorithms, which are essential\nfor effective computer programming.3",
         "metadata": {
+          "chapter": "chapter_1",
           "category": "computer_science",
           "language": "en"
         },
@@ -2369,6 +2552,7 @@
         "page": 20,
         "text": "While computers are common today, they weren’t always this pervasive. For those whose lives have been\nshaped by computer technology, it can sometimes seem like computer technology is ahistorical: computing\noften focuses on rapid innovation and improvement, wasting no time looking back and reflecting on the past.\nYet the foundations of computer science defined over 50, and as much as 100, years ago very much shape\nwhat is possible with computing today.\nThe Early History of Computing\nThe first com",
         "metadata": {
+          "chapter": "chapter_1",
           "category": "computer_science",
           "language": "en"
         },
@@ -2387,7 +2571,50 @@
     },
     "hit1": false,
     "hit3": false,
-    "hits": []
+    "hits": [
+      {
+        "chunk_id": "bd362de4667e12760bfba1ad",
+        "document_id": "openstax-intro-cs",
+        "source": "data\\corpus\\introduction_to_computer_science.pdf",
+        "page": 34,
+        "text": "24 1 • Introduction to Computer Science",
+        "metadata": {
+          "chapter": "chapter_1",
+          "category": "computer_science",
+          "language": "en"
+        },
+        "score": 0.563921425576295,
+        "evidence_hit": false
+      },
+      {
+        "chunk_id": "07f0ad16ed6889deba8bb58f",
+        "document_id": "openstax-intro-cs",
+        "source": "data\\corpus\\introduction_to_computer_science.pdf",
+        "page": 29,
+        "text": "1.1 • Computer Science 19",
+        "metadata": {
+          "chapter": "chapter_1",
+          "category": "computer_science",
+          "language": "en"
+        },
+        "score": 0.5527851416830698,
+        "evidence_hit": false
+      },
+      {
+        "chunk_id": "82b091eccb40bf7489d8b15b",
+        "document_id": "openstax-intro-cs",
+        "source": "data\\corpus\\introduction_to_computer_science.pdf",
+        "page": 36,
+        "text": "26 1 • Introduction to Computer Science",
+        "metadata": {
+          "chapter": "chapter_1",
+          "category": "computer_science",
+          "language": "en"
+        },
+        "score": 0.545680777599835,
+        "evidence_hit": false
+      }
+    ]
   },
   {
     "strategy": "C",
@@ -2405,6 +2632,7 @@
         "page": 23,
         "text": "However, the physical basis of computers was not always silicon. The Electronic Numerical Integrator and\nComputer (ENIAC) was completed in 1945, making it one of the earliest digital computers. The ENIAC operated\non different physical principles. Instead of silicon, the ENIAC used the technology of a vacuum tube, a physical\ndevice like a light bulb that was used as memory in early digital computers. When the “light” in the vacuum\ntube is off, the vacuum tube represents the number 0. When the “li",
         "metadata": {
+          "chapter": "chapter_1",
           "category": "computer_science",
           "language": "en"
         },
@@ -2418,6 +2646,7 @@
         "page": 24,
         "text": "14 1 • Introduction to Computer Science\n\ntoday’s computers can also be computed by the ENIAC given the right circumstances—just trillions of times\nmore slowly.",
         "metadata": {
+          "chapter": "chapter_1",
           "category": "computer_science",
           "language": "en"
         },
@@ -2431,6 +2660,7 @@
         "page": 20,
         "text": "puting devices were not at all like the computers we know today. They were physical calculation\ndevices such as the abacus, which first appeared in many societies across the world thousands of years ago.\nThey allowed people to tally, count, or add numbers (Figure 1.2). Today, abaci are still used in some situations,\nsuch as helping small children learn basic arithmetic, keeping score in games, and as a calculating tool for\npeople with visual impairments. However, abaci are not common today becau",
         "metadata": {
+          "chapter": "chapter_1",
           "category": "computer_science",
           "language": "en"
         },
@@ -2455,6 +2685,7 @@
         "page": 24,
         "text": "How is this possible? The algorithmic principles that determine how results are computed makes up software.\nAlmost all computers, from the ENIAC to today’s computers, are considered Turing-complete (or\nComputationally Universal, as opposed to specialized computing devices such as scientific calculators) because\nthey share the same fundamental model for computing results and every computer has the ability to run any\nalgorithm. Alan Mathison Turing was an English mathematician who was highly influ",
         "metadata": {
+          "chapter": "chapter_1",
           "category": "computer_science",
           "language": "en"
         },
@@ -2468,6 +2699,7 @@
         "page": 24,
         "text": "ential in the development\nof theoretical computer science, which focuses on the mathematical processes behind software, and provided\na formalization of the concepts of algorithm and computation with the Turing machine. A Turing-complete\ncomputer stores data in memory (either using vacuum tubes or silicon) and manipulates that data according\nto a computer program, which is an algorithm that can be run on a computer. These programs are\nrepresented using symbols and instructions written in a progra",
         "metadata": {
+          "chapter": "chapter_1",
           "category": "computer_science",
           "language": "en"
         },
@@ -2481,6 +2713,7 @@
         "page": 24,
         "text": "While both hardware and software are important to the practical operation of computers, computer science’s\nhistorical roots in mathematics also emphasize a third perspective. Whereas software focuses on the program\ndetails for solving problems with computers, theoretical computer science focuses on the mathematical\nprocesses behind software. The idea of Turing-completeness is a foundational concept in theoretical computer\nscience, which considers how computers in general—not just the ENIAC or to",
         "metadata": {
+          "chapter": "chapter_1",
           "category": "computer_science",
           "language": "en"
         },
@@ -2505,6 +2738,7 @@
         "page": 25,
         "text": "Around the same time that the ARPANET began development in the late 1960s, Wally Feurzeig, Seymour\nPapert, and Cynthia Solomon designed the LOGO programming language to enable new kinds of computer-\nmediated expression and communication. Compared to contemporary programming languages such as\nFORTRAN (FORmula TRANslation System) that emphasized computation toward scientific and engineering\napplications, LOGO is well known for its use of turtle graphics, whereby programs were used to control the\na",
         "metadata": {
+          "chapter": "chapter_1",
           "category": "computer_science",
           "language": "en"
         },
@@ -2518,6 +2752,7 @@
         "page": 24,
         "text": "mming language consisting of symbols and\ninstructions that can be interpreted by the computer. Programs are also stored in memory, which allows\nprogrammers to modify and improve programs by changing the instructions.",
         "metadata": {
+          "chapter": "chapter_1",
           "category": "computer_science",
           "language": "en"
         },
@@ -2531,6 +2766,7 @@
         "page": 21,
         "text": "puter programmer.",
         "metadata": {
+          "chapter": "chapter_1",
           "category": "computer_science",
           "language": "en"
         },
@@ -2555,6 +2791,7 @@
         "page": 26,
         "text": "r science education was only\nintended to prepare students for software development jobs. We now know that there are many more roles for\ncomputer scientists to play in society—not only software engineers, but also data analysts, product managers,\nentrepreneurs, political advisors or politicians, environmental engineers, social activists, and scientists across\nevery field from accounting to zoology.",
         "metadata": {
+          "chapter": "chapter_1",
           "category": "computer_science",
           "language": "en"
         },
@@ -2568,6 +2805,7 @@
         "page": 26,
         "text": "software engineers, designed their computer science curricula to teach the concepts that early computer\ncompanies such as IBM desperately needed. These courses had an emphasis on efficiency, performance, and\nscalability, because a university computer science education was only intended to produce software engineers.\nWe live with the consequences of this design even today: the structure of this textbook inherits the borders\nbetween concepts originally imagined in the 1970s when university compute",
         "metadata": {
+          "chapter": "chapter_1",
           "category": "computer_science",
           "language": "en"
         },
@@ -2581,6 +2819,7 @@
         "page": 25,
         "text": "Yet despite these roots in aspirations for computers as a medium for learning anything and everything, the\nstudy of computer science education emerged in the 1970s as a field narrowly concerned with producing more\neffective software engineers. Higher-education computer science faculty, motivated by the demand for",
         "metadata": {
+          "chapter": "chapter_1",
           "category": "computer_science",
           "language": "en"
         },
@@ -2605,6 +2844,7 @@
         "page": 27,
         "text": "Sr., a member of the\nSilicon Valley Engineering Hall of Fame, helped Hewlett-Packard develop its first computer lab and create the\ncompany’s first computers. Later, Clay provided information to venture capitalists that motivated them to\ninvest in start-ups such as Intel and Compaq.5 In another example, Mark Dean was an engineer for IBM whose\nwork was instrumental in helping IBM develop the Industry Standard Architecture (ISA) bus, which created a\nmethod of connecting a computer’s processor with",
         "metadata": {
+          "chapter": "chapter_1",
           "category": "computer_science",
           "language": "en"
         },
@@ -2618,6 +2858,7 @@
         "page": 50,
         "text": "and automation. They embraced computational thinking by applying algorithms and machine learning to\nanalyze data. Recognizing the efficiency of adaptive design reuse, the team explored successful projects like\nrobotics and self-driving cars for inspiration. These projects have become the foundation for their own\ninnovation. With minimal adjustments, they seamlessly integrate these building blocks into comprehensive\nsolutions such as self-driven cars that can smoothly navigate the city, drones th",
         "metadata": {
+          "chapter": "chapter_2",
           "category": "computer_science",
           "language": "en"
         },
@@ -2631,6 +2872,7 @@
         "page": 26,
         "text": "software engineers, designed their computer science curricula to teach the concepts that early computer\ncompanies such as IBM desperately needed. These courses had an emphasis on efficiency, performance, and\nscalability, because a university computer science education was only intended to produce software engineers.\nWe live with the consequences of this design even today: the structure of this textbook inherits the borders\nbetween concepts originally imagined in the 1970s when university compute",
         "metadata": {
+          "chapter": "chapter_1",
           "category": "computer_science",
           "language": "en"
         },
@@ -2655,6 +2897,7 @@
         "page": 31,
         "text": "1.2 • Computer Science across the Disciplines 21\n\nvery same power that limits spreadsheets as a data management and large-scale data analysis tool. The more\ndata and the more people involved in a spreadsheet, the greater the potential for spreadsheet problems.",
         "metadata": {
+          "chapter": "chapter_1",
           "category": "computer_science",
           "language": "en"
         },
@@ -2668,6 +2911,7 @@
         "page": 30,
         "text": "reshaped almost all\nfacets of life today for everyone.\nData Science\nAcross business, financial, governmental, scientific, and nonprofit workplaces, millions of people are\nprogramming, and most of the time, they don’t even know it! A spreadsheet is an example of a data-centric\nprogramming environment where data is organized into cells in a table. Instead of presenting programs as\nprimarily about algorithms, spreadsheets present programs as primarily about data. Spreadsheets are often\nused for da",
         "metadata": {
+          "chapter": "chapter_1",
           "category": "computer_science",
           "language": "en"
         },
@@ -2681,6 +2925,7 @@
         "page": 30,
         "text": "ely by the user rather than the software. Spreadsheets are an expressive\nand accessible technology for data analysis, but this creative power that spreadsheets afford to users is the",
         "metadata": {
+          "chapter": "chapter_1",
           "category": "computer_science",
           "language": "en"
         },
@@ -2705,6 +2950,7 @@
         "page": 60,
         "text": "game—this is algorithmic thinking.",
         "metadata": {
+          "chapter": "chapter_2",
           "category": "computer_science",
           "language": "en"
         },
@@ -2718,6 +2964,7 @@
         "page": 37,
         "text": "The idea of neural networks, however, is not as new as it might seem. Artificial neural networks were first\nimagined in the mid-1900s alongside contemporary research efforts in the cognitive sciences. The ideas of\nmultilayered, hierarchical networks of neurons and the mathematical optimization methods for learning were\nall there, but these early efforts were limited by the computational processing power available at the time. In\naddition, the large datasets that drive neural network learning wer",
         "metadata": {
+          "chapter": "chapter_1",
           "category": "computer_science",
           "language": "en"
         },
@@ -2731,6 +2978,7 @@
         "page": 52,
         "text": "In today’s technology world, mastering computational thinking techniques is important. These techniques\noffer a systematic way to solve problems using tools like data structures, which are like containers used to\norganize and store data efficiently in a computer. They define how data is logically arranged and manipulated,\nmaking it easier to access and work with information in algorithms and programs. There are four key\n\nAccess for free at openstax.org",
         "metadata": {
+          "chapter": "chapter_2",
           "category": "computer_science",
           "language": "en"
         },
@@ -2747,9 +2995,52 @@
     "filter": {
       "chapter": "chapter_2"
     },
-    "hit1": false,
-    "hit3": false,
-    "hits": []
+    "hit1": true,
+    "hit3": true,
+    "hits": [
+      {
+        "chunk_id": "7ace98cf8897f948221fc737",
+        "document_id": "openstax-intro-cs",
+        "source": "data\\corpus\\introduction_to_computer_science.pdf",
+        "page": 51,
+        "text": "To further qualify computational thinking, Al Aho of the Columbia University Computer Science Department\ndescribes computational thinking as “the thought processes involved in formulating problems so their\nsolutions can be represented as computational steps and algorithms.” Jeannette Wing, also of Columbia\nUniversity, brought the idea of computational thinking to prominence in a paper she wrote in 2006 while at\nCarnegie Mellon University. She believes that computational thinking details the ment",
+        "metadata": {
+          "chapter": "chapter_2",
+          "category": "computer_science",
+          "language": "en"
+        },
+        "score": 0.784987211227417,
+        "evidence_hit": true
+      },
+      {
+        "chunk_id": "e90d2ee69775a8b46d0c62cd",
+        "document_id": "openstax-intro-cs",
+        "source": "data\\corpus\\introduction_to_computer_science.pdf",
+        "page": 50,
+        "text": "This chapter presents key aspects of computational thinking, including logical thinking, assessment,\ndecomposition, pattern recognition, abstraction, generalization, componentization, and automation. These\nelements guide how computer scientists approach problems and create well-designed solution building blocks\nat both the business and technical levels. Computational thinking often involves a bottom-up approach,\nfocusing on computing in smaller contexts, and seeks to generate innovative solution",
+        "metadata": {
+          "chapter": "chapter_2",
+          "category": "computer_science",
+          "language": "en"
+        },
+        "score": 0.7226254940032959,
+        "evidence_hit": false
+      },
+      {
+        "chunk_id": "dd8f0b99de3f225e22b15c04",
+        "document_id": "openstax-intro-cs",
+        "source": "data\\corpus\\introduction_to_computer_science.pdf",
+        "page": 53,
+        "text": "2.1 • Computational Thinking 43\n\ntechniques (cornerstones) to computational thinking, as illustrated in Figure 2.4:",
+        "metadata": {
+          "chapter": "chapter_2",
+          "category": "computer_science",
+          "language": "en"
+        },
+        "score": 0.7178510427474976,
+        "evidence_hit": false
+      }
+    ]
   },
   {
     "strategy": "C",
@@ -2767,6 +3058,7 @@
         "page": 53,
         "text": "• Decomposition is a fundamental concept in computational thinking, representing the process of\nsystematically breaking down a complex problem or system into smaller, more manageable parts or\nsubproblems. By breaking down complexity into simpler elements, decomposition promotes a more\norganized approach to problem-solving.\n• Logical thinking and pattern recognition is a computational thinking technique that involves the process of\nidentifying similarities among and within problems. This computat",
         "metadata": {
+          "chapter": "chapter_2",
           "category": "computer_science",
           "language": "en"
         },
@@ -2780,6 +3072,7 @@
         "page": 52,
         "text": "is called decomposition. This approach helps analyze and solve problems more effectively.\n• Pattern recognition (logically organizing and analyzing data): Computational thinking emphasizes the\nlogical organization and analysis of data. This includes the ability to structure information in a way that\nfacilitates effective problem-solving.\n• Representing data through abstractions: An abstraction is a simplified representation of complex systems\nor phenomena. Computational thinking involves represe",
         "metadata": {
+          "chapter": "chapter_2",
           "category": "computer_science",
           "language": "en"
         },
@@ -2793,6 +3086,7 @@
         "page": 50,
         "text": "s by utilizing data\nstructures and algorithms. Additionally, it may make use of existing design building blocks like design patterns\nand abstract data types to expedite the development of optimal combinations of data structures and\nalgorithms.\nWhat Is Computational Thinking?\nThe problem-solving and cognitive process, known as computational thinking, is rooted in principles derived\nfrom computer science. It involves breaking down complex problems into smaller, more manageable parts and\ndevising s",
         "metadata": {
+          "chapter": "chapter_2",
           "category": "computer_science",
           "language": "en"
         },
@@ -2810,8 +3104,51 @@
       "chapter": "chapter_2"
     },
     "hit1": false,
-    "hit3": false,
-    "hits": []
+    "hit3": true,
+    "hits": [
+      {
+        "chunk_id": "21df34633a60da67c7511d50",
+        "document_id": "openstax-intro-cs",
+        "source": "data\\corpus\\introduction_to_computer_science.pdf",
+        "page": 53,
+        "text": "• Decomposition is a fundamental concept in computational thinking, representing the process of\nsystematically breaking down a complex problem or system into smaller, more manageable parts or\nsubproblems. By breaking down complexity into simpler elements, decomposition promotes a more\norganized approach to problem-solving.\n• Logical thinking and pattern recognition is a computational thinking technique that involves the process of\nidentifying similarities among and within problems. This computat",
+        "metadata": {
+          "chapter": "chapter_2",
+          "category": "computer_science",
+          "language": "en"
+        },
+        "score": 0.7225224756442792,
+        "evidence_hit": false
+      },
+      {
+        "chunk_id": "f6b8aa1bbda105945e8d15c5",
+        "document_id": "openstax-intro-cs",
+        "source": "data\\corpus\\introduction_to_computer_science.pdf",
+        "page": 54,
+        "text": "Decomposition involves solving a complex problem by breaking it up into smaller, more manageable tasks.\nDecomposition enables the consideration of various components essential for solving a seemingly complex\ntask, allowing it to be redefined into a more manageable problem. In the case of the jam sandwich example,\ndecomposition involves identifying all the required ingredients and the steps the robot must take to\nsuccessfully create a jam sandwich.\nLogical Thinking and Pattern Recognition",
+        "metadata": {
+          "chapter": "chapter_2",
+          "category": "computer_science",
+          "language": "en"
+        },
+        "score": 0.6411938858388035,
+        "evidence_hit": true
+      },
+      {
+        "chunk_id": "0dc7dc9b85aed3be40967db4",
+        "document_id": "openstax-intro-cs",
+        "source": "data\\corpus\\introduction_to_computer_science.pdf",
+        "page": 52,
+        "text": "is called decomposition. This approach helps analyze and solve problems more effectively.\n• Pattern recognition (logically organizing and analyzing data): Computational thinking emphasizes the\nlogical organization and analysis of data. This includes the ability to structure information in a way that\nfacilitates effective problem-solving.\n• Representing data through abstractions: An abstraction is a simplified representation of complex systems\nor phenomena. Computational thinking involves represe",
+        "metadata": {
+          "chapter": "chapter_2",
+          "category": "computer_science",
+          "language": "en"
+        },
+        "score": 0.588908093837145,
+        "evidence_hit": false
+      }
+    ]
   },
   {
     "strategy": "C",
@@ -2829,6 +3166,7 @@
         "page": 52,
         "text": "as visualized in Figure 2.3:",
         "metadata": {
+          "chapter": "chapter_2",
           "category": "computer_science",
           "language": "en"
         },
@@ -2842,6 +3180,7 @@
         "page": 36,
         "text": "uctions is a much harder task. AI methods for image recognition involve designing\nalgorithm architectures that can generalize across all the possible ways that an object can appear in an image.",
         "metadata": {
+          "chapter": "chapter_1",
           "category": "computer_science",
           "language": "en"
         },
@@ -2855,6 +3194,7 @@
         "page": 56,
         "text": "An algorithm is a sequence of steps/instructions that must be followed in a specific order to solve a problem.\nAlgorithms make it possible to describe a solution to a problem by writing down the instructions that are\nrequired to solve the problem. Computer programs typically execute algorithms to perform certain tasks. In\nthe jam sandwich example, the algorithm technique is about writing instructions that the robot can follow to\nmake the jam sandwich. As you will learn in Chapter 3 Data Structur",
         "metadata": {
+          "chapter": "chapter_2",
           "category": "computer_science",
           "language": "en"
         },

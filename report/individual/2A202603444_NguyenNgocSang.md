@@ -2,7 +2,7 @@
 - **Chủ đề/corpus:** *Introduction to Computer Science* (OpenStax); 1 tài liệu PDF, `document_id=openstax-intro-cs`. Nguồn: https://assets.openstax.org/oscms-prodcms/media/documents/Introduction_To_Computer_Science_-_WEB.pdf. Trang vật lý 4 và phần Preface trang 11 của PDF xác nhận CC BY-NC-SA 4.0: chỉ sử dụng phi thương mại, ghi công và chia sẻ phái sinh cùng giấy phép. Giữ nguyên attribution “Access for free at openstax.org”; hình minh họa có thể có điều khoản/attribution riêng như mô tả trong PDF.
 - **Số trang:** manifest hiện tại khai báo **34 trang nội dung** (trang vật lý 19–40 và 49–60; PDF có 939 trang vật lý). Pipeline kiểm tra các trang được chọn không rỗng và đối chiếu evidence quote với văn bản trích xuất.
 - **Chuẩn hóa và lỗi:** `load_pdf` trích xuất PDF, chuẩn hóa Unicode NFC và khoảng trắng; mỗi chunk giữ `document_id`, nguồn, trang và metadata. Quote q08 đã được sửa để khớp văn bản trích xuất từ trang 22. Log có cảnh báo hai trang đầu rỗng; đây không phải các trang nội dung được chọn trong manifest.
-- **Embedding:** `sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2`, chạy local trên CPU; **384 chiều**, cùng model cho A/B/C. Môi trường: Python 3.11.9, Sentence Transformers 6.3.0, PyTorch 2.15.0.
+- **Embedding:** `sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2`, chạy local trên CPU; **384 chiều**, cùng model cho A/B/C. Môi trường: Python 3.11.9, Sentence Transformers 6.3.0, PyTorch 2.15.0, PyMuPDF 2.1.0.
 - **Vector store:** PostgreSQL 16.16 + pgvector extension 0.8.7; Python `pgvector` 0.5.1 và `psycopg` 3.3.8. Bảng `ingestion_chunks`, khóa chính `(strategy,chunk_id)`, cosine distance (`<=>`), truy xuất Top 3. Lệnh chạy:
 
 ```bash
@@ -23,12 +23,12 @@ python -m starter.src.run --manifest data/manifest.json --benchmark data/benchma
 
 | Strategy | Split | Hit@1 (n/N) | Evidence Hit@3 (n/N) | Chunk count | Ingest (s) | Chi phí API |
 |---|---|---|---|---|---|---|
-| A | dev | 7/15 (46.67%) | 11/15 (73.33%) | 251 | 23.876 | 0 USD |
-| A | test | 3/5 (60.00%) | 3/5 (60.00%) | 251 | 23.876 | 0 USD |
-| B | dev | 6/15 (40.00%) | 8/15 (53.33%) | 317 | 19.750 | 0 USD |
-| B | test | 1/5 (20.00%) | 3/5 (60.00%) | 317 | 19.750 | 0 USD |
-| C | dev | 6/15 (40.00%) | 8/15 (53.33%) | 317 | 18.429 | 0 USD |
-| C | test | 2/5 (40.00%) | 3/5 (60.00%) | 317 | 18.429 | 0 USD |
+| A | dev | 7/15 (46.67%) | 11/15 (73.33%) | 251 | 37.188 | 0 USD |
+| A | test | 3/5 (60.00%) | 3/5 (60.00%) | 251 | 37.188 | 0 USD |
+| B | dev | 6/15 (40.00%) | 8/15 (53.33%) | 317 | 29.171 | 0 USD |
+| B | test | 1/5 (20.00%) | 3/5 (60.00%) | 317 | 29.171 | 0 USD |
+| C | dev | 6/15 (40.00%) | 8/15 (53.33%) | 317 | 28.138 | 0 USD |
+| C | test | 2/5 (40.00%) | 3/5 (60.00%) | 317 | 28.138 | 0 USD |
 
 *Embedding chạy local nên không phát sinh chi phí API; không tính điện, phần cứng, Internet hoặc thời gian nhân công. Số chunk và thời gian ingestion lấy từ `results/run_metadata.json`.*
 
@@ -45,8 +45,6 @@ Grounding scores dùng rubric 0/1/2 của GUIDE trên q16–q20: q16 và q20 có
 **Giới hạn audit:** các coherence scores là đánh giá hỗ trợ bởi AI sau khi đọc từng chunk mẫu, không phải xác nhận độc lập của học viên; học viên cần xác nhận nhãn trước khi nộp nếu rubric yêu cầu audit thủ công. Grounding labels cũng cần học viên kiểm tra lại với PDF/trace. Kiểm tra metadata đối chiếu `document_id`, nguồn, trang, `category`, `language` và `chapter` của 15 hit top-3 mỗi strategy với manifest/page inventory. Filter compliance đo ở cấp câu hỏi (cả top-3 phải khớp filter): A 2/2 và B 1/2 là control không filter; C 2/2 là strategy có filter.
 
 Đã xuất toàn bộ **885 chunk** vào `results/audit_chunks.csv` (A: 251, B: 317, C: 317), kèm JSON metadata để kiểm tra. Đây là tệp dữ liệu; không đồng nghĩa mọi chunk đã được audit thủ công. Chi tiết 45 nhãn (15 grounding + 30 coherence) và chunk ID mẫu nằm trong `results/manual_audit_reviewed.csv`.
-
-**Tệp minh chứng:** `results/metrics.csv`, `results/run_metadata.json`, `results/retrieval_traces.json`, `results/audit_chunks.csv`, `results/manual_audit_template.csv` và `results/manual_audit_reviewed.csv`.
 
 ## Phân tích và kết luận
 
